@@ -73,6 +73,16 @@ namespace Checkers_Game.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap checkers_table {
+            get {
+                object obj = ResourceManager.GetObject("checkers_table", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pixel_art_castle {
             get {
                 object obj = ResourceManager.GetObject("pixel_art_castle", resourceCulture);

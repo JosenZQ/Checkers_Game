@@ -27,7 +27,23 @@ namespace Checkers_Game
             lblHomeTitle.BackColor = Color.Transparent;
 
             btnPlay.Parent = pbxHomeBackground;
-            btnPlay.BackColor = Color.Transparent; 
+            btnPlay.BackColor = Color.Transparent;
+
+            btnCancel.Parent = pbxHomeBackground;
+            btnCancel.BackColor = Color.Transparent;
         }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            frmGameBoard mGameboard = new frmGameBoard();
+            mGameboard.Show();
+            this.Hide();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+                
     }
 }
