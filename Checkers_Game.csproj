@@ -92,6 +92,10 @@
   <ItemGroup>
     <Content Include="assets\ico\chechers_queen_icon.ico" />
     <Content Include="assets\ico\game_board.ico" />
+    <None Include="Resources\board_black_token1.png" />
+    <None Include="Resources\board_black_token.png" />
+    <None Include="Resources\board_white_token.png" />
+    <None Include="Resources\board_black_token.bmp" />
     <None Include="Resources\checkers_table.png" />
     <None Include="Resources\cancel_button.png" />
     <None Include="Resources\play_button1.png" />
