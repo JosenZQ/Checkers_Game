@@ -103,6 +103,26 @@ namespace Checkers_Game.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap label_button_first_player {
+            get {
+                object obj = ResourceManager.GetObject("label_button_first_player", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap label_button_second_player {
+            get {
+                object obj = ResourceManager.GetObject("label_button_second_player", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pixel_art_castle {
             get {
                 object obj = ResourceManager.GetObject("pixel_art_castle", resourceCulture);
@@ -116,6 +136,16 @@ namespace Checkers_Game.Properties {
         internal static System.Drawing.Bitmap play_button {
             get {
                 object obj = ResourceManager.GetObject("play_button", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shiny_stars {
+            get {
+                object obj = ResourceManager.GetObject("shiny_stars", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

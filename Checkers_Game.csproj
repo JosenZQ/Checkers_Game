@@ -92,6 +92,10 @@
   <ItemGroup>
     <Content Include="assets\ico\chechers_queen_icon.ico" />
     <Content Include="assets\ico\game_board.ico" />
+    <None Include="Resources\label_button_second_player.png" />
+    <None Include="Resources\label_button_first_player.png" />
+    <None Include="Resources\shiny_stars.gif" />
+    <None Include="Resources\501d49dc37935dc5c1fa42a676f785de%282%29.gif" />
     <None Include="Resources\board_black_token1.png" />
     <None Include="Resources\board_black_token.png" />
     <None Include="Resources\board_white_token.png" />

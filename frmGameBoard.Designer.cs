@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGameBoard));
             this.tlpGameBoard = new System.Windows.Forms.TableLayoutPanel();
+            this.pbxGameBoardButtons = new System.Windows.Forms.PictureBox();
             this.pictureBox64 = new System.Windows.Forms.PictureBox();
             this.pictureBox63 = new System.Windows.Forms.PictureBox();
             this.pictureBox62 = new System.Windows.Forms.PictureBox();
@@ -95,7 +96,9 @@
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pbxGameBoard = new System.Windows.Forms.PictureBox();
+            this.lblTurno = new System.Windows.Forms.Label();
             this.tlpGameBoard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoardButtons)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).BeginInit();
@@ -174,7 +177,7 @@
             this.tlpGameBoard.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 66F));
             this.tlpGameBoard.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 66F));
             this.tlpGameBoard.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 69F));
-            this.tlpGameBoard.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 64F));
+            this.tlpGameBoard.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 65F));
             this.tlpGameBoard.Controls.Add(this.pictureBox64, 7, 7);
             this.tlpGameBoard.Controls.Add(this.pictureBox63, 6, 7);
             this.tlpGameBoard.Controls.Add(this.pictureBox62, 5, 7);
@@ -240,7 +243,7 @@
             this.tlpGameBoard.Controls.Add(this.pictureBox14, 5, 1);
             this.tlpGameBoard.Controls.Add(this.pictureBox15, 6, 1);
             this.tlpGameBoard.ForeColor = System.Drawing.Color.Black;
-            this.tlpGameBoard.Location = new System.Drawing.Point(12, 12);
+            this.tlpGameBoard.Location = new System.Drawing.Point(3, 1);
             this.tlpGameBoard.Name = "tlpGameBoard";
             this.tlpGameBoard.RowCount = 8;
             this.tlpGameBoard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -253,6 +256,14 @@
             this.tlpGameBoard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
             this.tlpGameBoard.Size = new System.Drawing.Size(533, 492);
             this.tlpGameBoard.TabIndex = 1;
+            // 
+            // pbxGameBoardButtons
+            // 
+            this.pbxGameBoardButtons.Location = new System.Drawing.Point(551, 1);
+            this.pbxGameBoardButtons.Name = "pbxGameBoardButtons";
+            this.pbxGameBoardButtons.Size = new System.Drawing.Size(272, 513);
+            this.pbxGameBoardButtons.TabIndex = 2;
+            this.pbxGameBoardButtons.TabStop = false;
             // 
             // pictureBox64
             // 
@@ -780,11 +791,22 @@
             this.pbxGameBoard.TabIndex = 0;
             this.pbxGameBoard.TabStop = false;
             // 
+            // lblTurno
+            // 
+            this.lblTurno.AutoSize = true;
+            this.lblTurno.Location = new System.Drawing.Point(657, 38);
+            this.lblTurno.Name = "lblTurno";
+            this.lblTurno.Size = new System.Drawing.Size(44, 16);
+            this.lblTurno.TabIndex = 3;
+            this.lblTurno.Text = "label1";
+            // 
             // frmGameBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(822, 514);
+            this.Controls.Add(this.lblTurno);
+            this.Controls.Add(this.pbxGameBoardButtons);
             this.Controls.Add(this.tlpGameBoard);
             this.Controls.Add(this.pbxGameBoard);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -794,6 +816,7 @@
             this.Text = "frmGameBoard";
             this.Load += new System.EventHandler(this.frmGameBoard_Load);
             this.tlpGameBoard.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoardButtons)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).EndInit();
@@ -860,6 +883,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoard)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -931,5 +955,7 @@
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pbxGameBoardButtons;
+        private System.Windows.Forms.Label lblTurno;
     }
 }

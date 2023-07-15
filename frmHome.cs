@@ -16,6 +16,7 @@ namespace Checkers_Game
         public frmHome()
         {
             InitializeComponent();
+            this.FormClosing += frmHome_Closing;
         }
 
         private void frmHome_Load(object sender, EventArgs e)
@@ -43,6 +44,14 @@ namespace Checkers_Game
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void frmHome_Closing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
         }
                 
     }
