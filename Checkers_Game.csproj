@@ -52,6 +52,12 @@
     <Compile Include="frmGameBoard.Designer.cs">
       <DependentUpon>frmGameBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp.Designer.cs">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmGameBoard.resx">
       <DependentUpon>frmGameBoard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.resx">
+      <DependentUpon>frmHelp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
@@ -92,6 +102,10 @@
   <ItemGroup>
     <Content Include="assets\ico\chechers_queen_icon.ico" />
     <Content Include="assets\ico\game_board.ico" />
+    <Content Include="assets\ico\question_pixel_icon.ico" />
+    <None Include="Resources\checkers_table.png" />
+    <None Include="Resources\forest_pixelart_background.png" />
+    <None Include="Resources\question_pixel_icon.png" />
     <None Include="Resources\label_button_second_player.png" />
     <None Include="Resources\label_button_first_player.png" />
     <None Include="Resources\shiny_stars.gif" />
@@ -100,7 +114,6 @@
     <None Include="Resources\board_black_token.png" />
     <None Include="Resources\board_white_token.png" />
     <None Include="Resources\board_black_token.bmp" />
-    <None Include="Resources\checkers_table.png" />
     <None Include="Resources\cancel_button.png" />
     <None Include="Resources\play_button1.png" />
     <None Include="Resources\button_template.png" />

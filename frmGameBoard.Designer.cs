@@ -30,70 +30,70 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGameBoard));
             this.tlpGameBoard = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox64 = new System.Windows.Forms.PictureBox();
-            this.pictureBox63 = new System.Windows.Forms.PictureBox();
-            this.pictureBox62 = new System.Windows.Forms.PictureBox();
-            this.pictureBox61 = new System.Windows.Forms.PictureBox();
-            this.pictureBox60 = new System.Windows.Forms.PictureBox();
-            this.pictureBox59 = new System.Windows.Forms.PictureBox();
-            this.pictureBox58 = new System.Windows.Forms.PictureBox();
-            this.pictureBox57 = new System.Windows.Forms.PictureBox();
-            this.pictureBox56 = new System.Windows.Forms.PictureBox();
-            this.pictureBox55 = new System.Windows.Forms.PictureBox();
-            this.pictureBox54 = new System.Windows.Forms.PictureBox();
-            this.pictureBox53 = new System.Windows.Forms.PictureBox();
-            this.pictureBox52 = new System.Windows.Forms.PictureBox();
-            this.pictureBox51 = new System.Windows.Forms.PictureBox();
-            this.pictureBox50 = new System.Windows.Forms.PictureBox();
-            this.pictureBox49 = new System.Windows.Forms.PictureBox();
-            this.pictureBox48 = new System.Windows.Forms.PictureBox();
-            this.pictureBox47 = new System.Windows.Forms.PictureBox();
-            this.pictureBox46 = new System.Windows.Forms.PictureBox();
-            this.pictureBox45 = new System.Windows.Forms.PictureBox();
-            this.pictureBox44 = new System.Windows.Forms.PictureBox();
-            this.pictureBox43 = new System.Windows.Forms.PictureBox();
-            this.pictureBox42 = new System.Windows.Forms.PictureBox();
-            this.pictureBox41 = new System.Windows.Forms.PictureBox();
-            this.pictureBox40 = new System.Windows.Forms.PictureBox();
-            this.pictureBox39 = new System.Windows.Forms.PictureBox();
-            this.pictureBox38 = new System.Windows.Forms.PictureBox();
-            this.pictureBox37 = new System.Windows.Forms.PictureBox();
-            this.pictureBox36 = new System.Windows.Forms.PictureBox();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.pictureBox34 = new System.Windows.Forms.PictureBox();
-            this.pictureBox33 = new System.Windows.Forms.PictureBox();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pbxH8 = new System.Windows.Forms.PictureBox();
+            this.pbxG8 = new System.Windows.Forms.PictureBox();
+            this.pbxF8 = new System.Windows.Forms.PictureBox();
+            this.pbxE8 = new System.Windows.Forms.PictureBox();
+            this.pbxD8 = new System.Windows.Forms.PictureBox();
+            this.pbxC8 = new System.Windows.Forms.PictureBox();
+            this.pbxB8 = new System.Windows.Forms.PictureBox();
+            this.pbxA8 = new System.Windows.Forms.PictureBox();
+            this.pbxH7 = new System.Windows.Forms.PictureBox();
+            this.pbxG7 = new System.Windows.Forms.PictureBox();
+            this.pbxF7 = new System.Windows.Forms.PictureBox();
+            this.pbxE7 = new System.Windows.Forms.PictureBox();
+            this.pbxD7 = new System.Windows.Forms.PictureBox();
+            this.pbxC7 = new System.Windows.Forms.PictureBox();
+            this.pbxB7 = new System.Windows.Forms.PictureBox();
+            this.pbxA7 = new System.Windows.Forms.PictureBox();
+            this.pbxH6 = new System.Windows.Forms.PictureBox();
+            this.pbxG6 = new System.Windows.Forms.PictureBox();
+            this.pbxF6 = new System.Windows.Forms.PictureBox();
+            this.pbxE6 = new System.Windows.Forms.PictureBox();
+            this.pbxD6 = new System.Windows.Forms.PictureBox();
+            this.pbxC6 = new System.Windows.Forms.PictureBox();
+            this.pbxB6 = new System.Windows.Forms.PictureBox();
+            this.pbxA6 = new System.Windows.Forms.PictureBox();
+            this.pbxH5 = new System.Windows.Forms.PictureBox();
+            this.pbxG5 = new System.Windows.Forms.PictureBox();
+            this.pbxF5 = new System.Windows.Forms.PictureBox();
+            this.pbxE5 = new System.Windows.Forms.PictureBox();
+            this.pbxD5 = new System.Windows.Forms.PictureBox();
+            this.pbxC5 = new System.Windows.Forms.PictureBox();
+            this.pbxB5 = new System.Windows.Forms.PictureBox();
+            this.pbxA5 = new System.Windows.Forms.PictureBox();
+            this.pbxH4 = new System.Windows.Forms.PictureBox();
+            this.pbxG4 = new System.Windows.Forms.PictureBox();
+            this.pbxF4 = new System.Windows.Forms.PictureBox();
+            this.pbxE4 = new System.Windows.Forms.PictureBox();
+            this.pbxD4 = new System.Windows.Forms.PictureBox();
+            this.pbxC4 = new System.Windows.Forms.PictureBox();
+            this.pbxB4 = new System.Windows.Forms.PictureBox();
+            this.pbxA4 = new System.Windows.Forms.PictureBox();
+            this.pbxH3 = new System.Windows.Forms.PictureBox();
+            this.pbxG3 = new System.Windows.Forms.PictureBox();
+            this.pbxF3 = new System.Windows.Forms.PictureBox();
+            this.pbxE3 = new System.Windows.Forms.PictureBox();
+            this.pbxD3 = new System.Windows.Forms.PictureBox();
+            this.pbxC3 = new System.Windows.Forms.PictureBox();
+            this.pbxB3 = new System.Windows.Forms.PictureBox();
+            this.pbxA3 = new System.Windows.Forms.PictureBox();
+            this.pbxH2 = new System.Windows.Forms.PictureBox();
+            this.pbxA1 = new System.Windows.Forms.PictureBox();
+            this.pbxB1 = new System.Windows.Forms.PictureBox();
+            this.pbxC1 = new System.Windows.Forms.PictureBox();
+            this.pbxD1 = new System.Windows.Forms.PictureBox();
+            this.pbxE1 = new System.Windows.Forms.PictureBox();
+            this.pbxF1 = new System.Windows.Forms.PictureBox();
+            this.pbxG1 = new System.Windows.Forms.PictureBox();
+            this.pbxH1 = new System.Windows.Forms.PictureBox();
+            this.pbxA2 = new System.Windows.Forms.PictureBox();
+            this.pbxB2 = new System.Windows.Forms.PictureBox();
+            this.pbxC2 = new System.Windows.Forms.PictureBox();
+            this.pbxD2 = new System.Windows.Forms.PictureBox();
+            this.pbxE2 = new System.Windows.Forms.PictureBox();
+            this.pbxF2 = new System.Windows.Forms.PictureBox();
+            this.pbxG2 = new System.Windows.Forms.PictureBox();
             this.pbxGameBoardButtons = new System.Windows.Forms.PictureBox();
             this.pbxGameBoard = new System.Windows.Forms.PictureBox();
             this.pbxTurn = new System.Windows.Forms.PictureBox();
@@ -102,71 +102,72 @@
             this.lblSecondPlayer = new System.Windows.Forms.Label();
             this.lblFirstPlayerTokens = new System.Windows.Forms.Label();
             this.lblSecondPlayerTokens = new System.Windows.Forms.Label();
+            this.btnHelp = new System.Windows.Forms.Button();
             this.tlpGameBoard.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoardButtons)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoard)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTurn)).BeginInit();
@@ -184,70 +185,70 @@
             this.tlpGameBoard.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 66F));
             this.tlpGameBoard.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 69F));
             this.tlpGameBoard.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 65F));
-            this.tlpGameBoard.Controls.Add(this.pictureBox64, 7, 7);
-            this.tlpGameBoard.Controls.Add(this.pictureBox63, 6, 7);
-            this.tlpGameBoard.Controls.Add(this.pictureBox62, 5, 7);
-            this.tlpGameBoard.Controls.Add(this.pictureBox61, 4, 7);
-            this.tlpGameBoard.Controls.Add(this.pictureBox60, 3, 7);
-            this.tlpGameBoard.Controls.Add(this.pictureBox59, 2, 7);
-            this.tlpGameBoard.Controls.Add(this.pictureBox58, 1, 7);
-            this.tlpGameBoard.Controls.Add(this.pictureBox57, 0, 7);
-            this.tlpGameBoard.Controls.Add(this.pictureBox56, 7, 6);
-            this.tlpGameBoard.Controls.Add(this.pictureBox55, 6, 6);
-            this.tlpGameBoard.Controls.Add(this.pictureBox54, 5, 6);
-            this.tlpGameBoard.Controls.Add(this.pictureBox53, 4, 6);
-            this.tlpGameBoard.Controls.Add(this.pictureBox52, 3, 6);
-            this.tlpGameBoard.Controls.Add(this.pictureBox51, 2, 6);
-            this.tlpGameBoard.Controls.Add(this.pictureBox50, 1, 6);
-            this.tlpGameBoard.Controls.Add(this.pictureBox49, 0, 6);
-            this.tlpGameBoard.Controls.Add(this.pictureBox48, 7, 5);
-            this.tlpGameBoard.Controls.Add(this.pictureBox47, 6, 5);
-            this.tlpGameBoard.Controls.Add(this.pictureBox46, 5, 5);
-            this.tlpGameBoard.Controls.Add(this.pictureBox45, 4, 5);
-            this.tlpGameBoard.Controls.Add(this.pictureBox44, 3, 5);
-            this.tlpGameBoard.Controls.Add(this.pictureBox43, 2, 5);
-            this.tlpGameBoard.Controls.Add(this.pictureBox42, 1, 5);
-            this.tlpGameBoard.Controls.Add(this.pictureBox41, 0, 5);
-            this.tlpGameBoard.Controls.Add(this.pictureBox40, 7, 4);
-            this.tlpGameBoard.Controls.Add(this.pictureBox39, 6, 4);
-            this.tlpGameBoard.Controls.Add(this.pictureBox38, 5, 4);
-            this.tlpGameBoard.Controls.Add(this.pictureBox37, 4, 4);
-            this.tlpGameBoard.Controls.Add(this.pictureBox36, 3, 4);
-            this.tlpGameBoard.Controls.Add(this.pictureBox35, 2, 4);
-            this.tlpGameBoard.Controls.Add(this.pictureBox34, 1, 4);
-            this.tlpGameBoard.Controls.Add(this.pictureBox33, 0, 4);
-            this.tlpGameBoard.Controls.Add(this.pictureBox32, 7, 3);
-            this.tlpGameBoard.Controls.Add(this.pictureBox31, 6, 3);
-            this.tlpGameBoard.Controls.Add(this.pictureBox30, 5, 3);
-            this.tlpGameBoard.Controls.Add(this.pictureBox29, 4, 3);
-            this.tlpGameBoard.Controls.Add(this.pictureBox28, 3, 3);
-            this.tlpGameBoard.Controls.Add(this.pictureBox27, 2, 3);
-            this.tlpGameBoard.Controls.Add(this.pictureBox26, 1, 3);
-            this.tlpGameBoard.Controls.Add(this.pictureBox25, 0, 3);
-            this.tlpGameBoard.Controls.Add(this.pictureBox24, 7, 2);
-            this.tlpGameBoard.Controls.Add(this.pictureBox23, 6, 2);
-            this.tlpGameBoard.Controls.Add(this.pictureBox22, 5, 2);
-            this.tlpGameBoard.Controls.Add(this.pictureBox21, 4, 2);
-            this.tlpGameBoard.Controls.Add(this.pictureBox20, 3, 2);
-            this.tlpGameBoard.Controls.Add(this.pictureBox19, 2, 2);
-            this.tlpGameBoard.Controls.Add(this.pictureBox18, 1, 2);
-            this.tlpGameBoard.Controls.Add(this.pictureBox17, 0, 2);
-            this.tlpGameBoard.Controls.Add(this.pictureBox16, 7, 1);
-            this.tlpGameBoard.Controls.Add(this.pictureBox1, 0, 0);
-            this.tlpGameBoard.Controls.Add(this.pictureBox2, 1, 0);
-            this.tlpGameBoard.Controls.Add(this.pictureBox3, 2, 0);
-            this.tlpGameBoard.Controls.Add(this.pictureBox4, 3, 0);
-            this.tlpGameBoard.Controls.Add(this.pictureBox5, 4, 0);
-            this.tlpGameBoard.Controls.Add(this.pictureBox6, 5, 0);
-            this.tlpGameBoard.Controls.Add(this.pictureBox7, 6, 0);
-            this.tlpGameBoard.Controls.Add(this.pictureBox8, 7, 0);
-            this.tlpGameBoard.Controls.Add(this.pictureBox9, 0, 1);
-            this.tlpGameBoard.Controls.Add(this.pictureBox10, 1, 1);
-            this.tlpGameBoard.Controls.Add(this.pictureBox11, 2, 1);
-            this.tlpGameBoard.Controls.Add(this.pictureBox12, 3, 1);
-            this.tlpGameBoard.Controls.Add(this.pictureBox13, 4, 1);
-            this.tlpGameBoard.Controls.Add(this.pictureBox14, 5, 1);
-            this.tlpGameBoard.Controls.Add(this.pictureBox15, 6, 1);
+            this.tlpGameBoard.Controls.Add(this.pbxH8, 7, 7);
+            this.tlpGameBoard.Controls.Add(this.pbxG8, 6, 7);
+            this.tlpGameBoard.Controls.Add(this.pbxF8, 5, 7);
+            this.tlpGameBoard.Controls.Add(this.pbxE8, 4, 7);
+            this.tlpGameBoard.Controls.Add(this.pbxD8, 3, 7);
+            this.tlpGameBoard.Controls.Add(this.pbxC8, 2, 7);
+            this.tlpGameBoard.Controls.Add(this.pbxB8, 1, 7);
+            this.tlpGameBoard.Controls.Add(this.pbxA8, 0, 7);
+            this.tlpGameBoard.Controls.Add(this.pbxH7, 7, 6);
+            this.tlpGameBoard.Controls.Add(this.pbxG7, 6, 6);
+            this.tlpGameBoard.Controls.Add(this.pbxF7, 5, 6);
+            this.tlpGameBoard.Controls.Add(this.pbxE7, 4, 6);
+            this.tlpGameBoard.Controls.Add(this.pbxD7, 3, 6);
+            this.tlpGameBoard.Controls.Add(this.pbxC7, 2, 6);
+            this.tlpGameBoard.Controls.Add(this.pbxB7, 1, 6);
+            this.tlpGameBoard.Controls.Add(this.pbxA7, 0, 6);
+            this.tlpGameBoard.Controls.Add(this.pbxH6, 7, 5);
+            this.tlpGameBoard.Controls.Add(this.pbxG6, 6, 5);
+            this.tlpGameBoard.Controls.Add(this.pbxF6, 5, 5);
+            this.tlpGameBoard.Controls.Add(this.pbxE6, 4, 5);
+            this.tlpGameBoard.Controls.Add(this.pbxD6, 3, 5);
+            this.tlpGameBoard.Controls.Add(this.pbxC6, 2, 5);
+            this.tlpGameBoard.Controls.Add(this.pbxB6, 1, 5);
+            this.tlpGameBoard.Controls.Add(this.pbxA6, 0, 5);
+            this.tlpGameBoard.Controls.Add(this.pbxH5, 7, 4);
+            this.tlpGameBoard.Controls.Add(this.pbxG5, 6, 4);
+            this.tlpGameBoard.Controls.Add(this.pbxF5, 5, 4);
+            this.tlpGameBoard.Controls.Add(this.pbxE5, 4, 4);
+            this.tlpGameBoard.Controls.Add(this.pbxD5, 3, 4);
+            this.tlpGameBoard.Controls.Add(this.pbxC5, 2, 4);
+            this.tlpGameBoard.Controls.Add(this.pbxB5, 1, 4);
+            this.tlpGameBoard.Controls.Add(this.pbxA5, 0, 4);
+            this.tlpGameBoard.Controls.Add(this.pbxH4, 7, 3);
+            this.tlpGameBoard.Controls.Add(this.pbxG4, 6, 3);
+            this.tlpGameBoard.Controls.Add(this.pbxF4, 5, 3);
+            this.tlpGameBoard.Controls.Add(this.pbxE4, 4, 3);
+            this.tlpGameBoard.Controls.Add(this.pbxD4, 3, 3);
+            this.tlpGameBoard.Controls.Add(this.pbxC4, 2, 3);
+            this.tlpGameBoard.Controls.Add(this.pbxB4, 1, 3);
+            this.tlpGameBoard.Controls.Add(this.pbxA4, 0, 3);
+            this.tlpGameBoard.Controls.Add(this.pbxH3, 7, 2);
+            this.tlpGameBoard.Controls.Add(this.pbxG3, 6, 2);
+            this.tlpGameBoard.Controls.Add(this.pbxF3, 5, 2);
+            this.tlpGameBoard.Controls.Add(this.pbxE3, 4, 2);
+            this.tlpGameBoard.Controls.Add(this.pbxD3, 3, 2);
+            this.tlpGameBoard.Controls.Add(this.pbxC3, 2, 2);
+            this.tlpGameBoard.Controls.Add(this.pbxB3, 1, 2);
+            this.tlpGameBoard.Controls.Add(this.pbxA3, 0, 2);
+            this.tlpGameBoard.Controls.Add(this.pbxH2, 7, 1);
+            this.tlpGameBoard.Controls.Add(this.pbxA1, 0, 0);
+            this.tlpGameBoard.Controls.Add(this.pbxB1, 1, 0);
+            this.tlpGameBoard.Controls.Add(this.pbxC1, 2, 0);
+            this.tlpGameBoard.Controls.Add(this.pbxD1, 3, 0);
+            this.tlpGameBoard.Controls.Add(this.pbxE1, 4, 0);
+            this.tlpGameBoard.Controls.Add(this.pbxF1, 5, 0);
+            this.tlpGameBoard.Controls.Add(this.pbxG1, 6, 0);
+            this.tlpGameBoard.Controls.Add(this.pbxH1, 7, 0);
+            this.tlpGameBoard.Controls.Add(this.pbxA2, 0, 1);
+            this.tlpGameBoard.Controls.Add(this.pbxB2, 1, 1);
+            this.tlpGameBoard.Controls.Add(this.pbxC2, 2, 1);
+            this.tlpGameBoard.Controls.Add(this.pbxD2, 3, 1);
+            this.tlpGameBoard.Controls.Add(this.pbxE2, 4, 1);
+            this.tlpGameBoard.Controls.Add(this.pbxF2, 5, 1);
+            this.tlpGameBoard.Controls.Add(this.pbxG2, 6, 1);
             this.tlpGameBoard.ForeColor = System.Drawing.Color.Black;
             this.tlpGameBoard.Location = new System.Drawing.Point(3, 1);
             this.tlpGameBoard.Name = "tlpGameBoard";
@@ -263,521 +264,584 @@
             this.tlpGameBoard.Size = new System.Drawing.Size(533, 492);
             this.tlpGameBoard.TabIndex = 1;
             // 
-            // pictureBox64
-            // 
-            this.pictureBox64.Location = new System.Drawing.Point(471, 434);
-            this.pictureBox64.Name = "pictureBox64";
-            this.pictureBox64.Size = new System.Drawing.Size(59, 50);
-            this.pictureBox64.TabIndex = 63;
-            this.pictureBox64.TabStop = false;
-            // 
-            // pictureBox63
-            // 
-            this.pictureBox63.Location = new System.Drawing.Point(402, 434);
-            this.pictureBox63.Name = "pictureBox63";
-            this.pictureBox63.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox63.TabIndex = 62;
-            this.pictureBox63.TabStop = false;
-            // 
-            // pictureBox62
-            // 
-            this.pictureBox62.Location = new System.Drawing.Point(336, 434);
-            this.pictureBox62.Name = "pictureBox62";
-            this.pictureBox62.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox62.TabIndex = 61;
-            this.pictureBox62.TabStop = false;
-            // 
-            // pictureBox61
-            // 
-            this.pictureBox61.Location = new System.Drawing.Point(270, 434);
-            this.pictureBox61.Name = "pictureBox61";
-            this.pictureBox61.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox61.TabIndex = 60;
-            this.pictureBox61.TabStop = false;
-            // 
-            // pictureBox60
-            // 
-            this.pictureBox60.Location = new System.Drawing.Point(203, 434);
-            this.pictureBox60.Name = "pictureBox60";
-            this.pictureBox60.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox60.TabIndex = 59;
-            this.pictureBox60.TabStop = false;
-            // 
-            // pictureBox59
-            // 
-            this.pictureBox59.Location = new System.Drawing.Point(136, 434);
-            this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox59.TabIndex = 58;
-            this.pictureBox59.TabStop = false;
-            // 
-            // pictureBox58
-            // 
-            this.pictureBox58.Location = new System.Drawing.Point(69, 434);
-            this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Size = new System.Drawing.Size(56, 50);
-            this.pictureBox58.TabIndex = 57;
-            this.pictureBox58.TabStop = false;
-            // 
-            // pictureBox57
-            // 
-            this.pictureBox57.Location = new System.Drawing.Point(3, 434);
-            this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox57.TabIndex = 56;
-            this.pictureBox57.TabStop = false;
-            // 
-            // pictureBox56
-            // 
-            this.pictureBox56.Location = new System.Drawing.Point(471, 372);
-            this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.Size = new System.Drawing.Size(59, 50);
-            this.pictureBox56.TabIndex = 55;
-            this.pictureBox56.TabStop = false;
-            // 
-            // pictureBox55
-            // 
-            this.pictureBox55.Location = new System.Drawing.Point(402, 372);
-            this.pictureBox55.Name = "pictureBox55";
-            this.pictureBox55.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox55.TabIndex = 54;
-            this.pictureBox55.TabStop = false;
-            // 
-            // pictureBox54
-            // 
-            this.pictureBox54.Location = new System.Drawing.Point(336, 372);
-            this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox54.TabIndex = 53;
-            this.pictureBox54.TabStop = false;
-            // 
-            // pictureBox53
-            // 
-            this.pictureBox53.Location = new System.Drawing.Point(270, 372);
-            this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox53.TabIndex = 52;
-            this.pictureBox53.TabStop = false;
-            // 
-            // pictureBox52
-            // 
-            this.pictureBox52.Location = new System.Drawing.Point(203, 372);
-            this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox52.TabIndex = 51;
-            this.pictureBox52.TabStop = false;
-            // 
-            // pictureBox51
-            // 
-            this.pictureBox51.Location = new System.Drawing.Point(136, 372);
-            this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox51.TabIndex = 50;
-            this.pictureBox51.TabStop = false;
-            // 
-            // pictureBox50
-            // 
-            this.pictureBox50.Location = new System.Drawing.Point(69, 372);
-            this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(56, 50);
-            this.pictureBox50.TabIndex = 49;
-            this.pictureBox50.TabStop = false;
-            // 
-            // pictureBox49
-            // 
-            this.pictureBox49.Location = new System.Drawing.Point(3, 372);
-            this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox49.TabIndex = 48;
-            this.pictureBox49.TabStop = false;
-            // 
-            // pictureBox48
-            // 
-            this.pictureBox48.Location = new System.Drawing.Point(471, 311);
-            this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(59, 50);
-            this.pictureBox48.TabIndex = 47;
-            this.pictureBox48.TabStop = false;
-            // 
-            // pictureBox47
-            // 
-            this.pictureBox47.Location = new System.Drawing.Point(402, 311);
-            this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox47.TabIndex = 46;
-            this.pictureBox47.TabStop = false;
-            // 
-            // pictureBox46
-            // 
-            this.pictureBox46.Location = new System.Drawing.Point(336, 311);
-            this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox46.TabIndex = 45;
-            this.pictureBox46.TabStop = false;
-            // 
-            // pictureBox45
-            // 
-            this.pictureBox45.Location = new System.Drawing.Point(270, 311);
-            this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox45.TabIndex = 44;
-            this.pictureBox45.TabStop = false;
-            // 
-            // pictureBox44
-            // 
-            this.pictureBox44.Location = new System.Drawing.Point(203, 311);
-            this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox44.TabIndex = 43;
-            this.pictureBox44.TabStop = false;
-            // 
-            // pictureBox43
-            // 
-            this.pictureBox43.Location = new System.Drawing.Point(136, 311);
-            this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox43.TabIndex = 42;
-            this.pictureBox43.TabStop = false;
-            // 
-            // pictureBox42
-            // 
-            this.pictureBox42.Location = new System.Drawing.Point(69, 311);
-            this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(56, 50);
-            this.pictureBox42.TabIndex = 41;
-            this.pictureBox42.TabStop = false;
-            // 
-            // pictureBox41
-            // 
-            this.pictureBox41.Location = new System.Drawing.Point(3, 311);
-            this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox41.TabIndex = 40;
-            this.pictureBox41.TabStop = false;
-            // 
-            // pictureBox40
-            // 
-            this.pictureBox40.Location = new System.Drawing.Point(471, 251);
-            this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(59, 50);
-            this.pictureBox40.TabIndex = 39;
-            this.pictureBox40.TabStop = false;
-            // 
-            // pictureBox39
-            // 
-            this.pictureBox39.Location = new System.Drawing.Point(402, 251);
-            this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox39.TabIndex = 38;
-            this.pictureBox39.TabStop = false;
-            // 
-            // pictureBox38
-            // 
-            this.pictureBox38.Location = new System.Drawing.Point(336, 251);
-            this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox38.TabIndex = 37;
-            this.pictureBox38.TabStop = false;
-            // 
-            // pictureBox37
-            // 
-            this.pictureBox37.Location = new System.Drawing.Point(270, 251);
-            this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox37.TabIndex = 36;
-            this.pictureBox37.TabStop = false;
-            // 
-            // pictureBox36
-            // 
-            this.pictureBox36.Location = new System.Drawing.Point(203, 251);
-            this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox36.TabIndex = 35;
-            this.pictureBox36.TabStop = false;
-            // 
-            // pictureBox35
-            // 
-            this.pictureBox35.Location = new System.Drawing.Point(136, 251);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox35.TabIndex = 34;
-            this.pictureBox35.TabStop = false;
-            // 
-            // pictureBox34
-            // 
-            this.pictureBox34.Location = new System.Drawing.Point(69, 251);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(56, 50);
-            this.pictureBox34.TabIndex = 33;
-            this.pictureBox34.TabStop = false;
-            // 
-            // pictureBox33
-            // 
-            this.pictureBox33.Location = new System.Drawing.Point(3, 251);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox33.TabIndex = 32;
-            this.pictureBox33.TabStop = false;
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox32.Location = new System.Drawing.Point(471, 187);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(59, 50);
-            this.pictureBox32.TabIndex = 31;
-            this.pictureBox32.TabStop = false;
-            // 
-            // pictureBox31
-            // 
-            this.pictureBox31.Location = new System.Drawing.Point(402, 187);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox31.TabIndex = 30;
-            this.pictureBox31.TabStop = false;
-            // 
-            // pictureBox30
-            // 
-            this.pictureBox30.Location = new System.Drawing.Point(336, 187);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox30.TabIndex = 29;
-            this.pictureBox30.TabStop = false;
-            // 
-            // pictureBox29
-            // 
-            this.pictureBox29.Location = new System.Drawing.Point(270, 187);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox29.TabIndex = 28;
-            this.pictureBox29.TabStop = false;
-            // 
-            // pictureBox28
-            // 
-            this.pictureBox28.Location = new System.Drawing.Point(203, 187);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox28.TabIndex = 27;
-            this.pictureBox28.TabStop = false;
-            // 
-            // pictureBox27
-            // 
-            this.pictureBox27.Location = new System.Drawing.Point(136, 187);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox27.TabIndex = 26;
-            this.pictureBox27.TabStop = false;
-            // 
-            // pictureBox26
-            // 
-            this.pictureBox26.Location = new System.Drawing.Point(69, 187);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(56, 50);
-            this.pictureBox26.TabIndex = 25;
-            this.pictureBox26.TabStop = false;
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.Location = new System.Drawing.Point(3, 187);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox25.TabIndex = 24;
-            this.pictureBox25.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Location = new System.Drawing.Point(471, 125);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(59, 50);
-            this.pictureBox24.TabIndex = 23;
-            this.pictureBox24.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Location = new System.Drawing.Point(402, 125);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox23.TabIndex = 22;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Location = new System.Drawing.Point(336, 125);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox22.TabIndex = 21;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Location = new System.Drawing.Point(270, 125);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox21.TabIndex = 20;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Location = new System.Drawing.Point(203, 125);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox20.TabIndex = 19;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Location = new System.Drawing.Point(136, 125);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox19.TabIndex = 18;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Location = new System.Drawing.Point(69, 125);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(56, 50);
-            this.pictureBox18.TabIndex = 17;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Location = new System.Drawing.Point(3, 125);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox17.TabIndex = 16;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Location = new System.Drawing.Point(471, 64);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(59, 50);
-            this.pictureBox16.TabIndex = 15;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Checkers_Game.Properties.Resources.board_white_token;
-            this.pictureBox2.Location = new System.Drawing.Point(69, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(56, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(136, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(203, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(270, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(336, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(402, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Location = new System.Drawing.Point(471, 3);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(59, 50);
-            this.pictureBox8.TabIndex = 7;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Location = new System.Drawing.Point(3, 64);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox9.TabIndex = 8;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(69, 64);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(56, 50);
-            this.pictureBox10.TabIndex = 9;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Location = new System.Drawing.Point(136, 64);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox11.TabIndex = 10;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Location = new System.Drawing.Point(203, 64);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox12.TabIndex = 11;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Location = new System.Drawing.Point(270, 64);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox13.TabIndex = 12;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Location = new System.Drawing.Point(336, 64);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox14.TabIndex = 13;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Location = new System.Drawing.Point(402, 64);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox15.TabIndex = 14;
-            this.pictureBox15.TabStop = false;
+            // pbxH8
+            // 
+            this.pbxH8.Location = new System.Drawing.Point(471, 434);
+            this.pbxH8.Name = "pbxH8";
+            this.pbxH8.Size = new System.Drawing.Size(59, 50);
+            this.pbxH8.TabIndex = 63;
+            this.pbxH8.TabStop = false;
+            this.pbxH8.Click += new System.EventHandler(this.pbxH8_Click);
+            // 
+            // pbxG8
+            // 
+            this.pbxG8.Location = new System.Drawing.Point(402, 434);
+            this.pbxG8.Name = "pbxG8";
+            this.pbxG8.Size = new System.Drawing.Size(61, 50);
+            this.pbxG8.TabIndex = 62;
+            this.pbxG8.TabStop = false;
+            this.pbxG8.Click += new System.EventHandler(this.pbxG8_Click);
+            // 
+            // pbxF8
+            // 
+            this.pbxF8.Location = new System.Drawing.Point(336, 434);
+            this.pbxF8.Name = "pbxF8";
+            this.pbxF8.Size = new System.Drawing.Size(60, 50);
+            this.pbxF8.TabIndex = 61;
+            this.pbxF8.TabStop = false;
+            this.pbxF8.Click += new System.EventHandler(this.pbxF8_Click);
+            // 
+            // pbxE8
+            // 
+            this.pbxE8.Location = new System.Drawing.Point(270, 434);
+            this.pbxE8.Name = "pbxE8";
+            this.pbxE8.Size = new System.Drawing.Size(60, 50);
+            this.pbxE8.TabIndex = 60;
+            this.pbxE8.TabStop = false;
+            this.pbxE8.Click += new System.EventHandler(this.pbxE8_Click);
+            // 
+            // pbxD8
+            // 
+            this.pbxD8.Location = new System.Drawing.Point(203, 434);
+            this.pbxD8.Name = "pbxD8";
+            this.pbxD8.Size = new System.Drawing.Size(61, 50);
+            this.pbxD8.TabIndex = 59;
+            this.pbxD8.TabStop = false;
+            this.pbxD8.Click += new System.EventHandler(this.pbxD8_Click);
+            // 
+            // pbxC8
+            // 
+            this.pbxC8.Location = new System.Drawing.Point(136, 434);
+            this.pbxC8.Name = "pbxC8";
+            this.pbxC8.Size = new System.Drawing.Size(61, 50);
+            this.pbxC8.TabIndex = 58;
+            this.pbxC8.TabStop = false;
+            this.pbxC8.Click += new System.EventHandler(this.pbxC8_Click);
+            // 
+            // pbxB8
+            // 
+            this.pbxB8.Location = new System.Drawing.Point(69, 434);
+            this.pbxB8.Name = "pbxB8";
+            this.pbxB8.Size = new System.Drawing.Size(56, 50);
+            this.pbxB8.TabIndex = 57;
+            this.pbxB8.TabStop = false;
+            this.pbxB8.Click += new System.EventHandler(this.pbxB8_Click);
+            // 
+            // pbxA8
+            // 
+            this.pbxA8.Location = new System.Drawing.Point(3, 434);
+            this.pbxA8.Name = "pbxA8";
+            this.pbxA8.Size = new System.Drawing.Size(55, 50);
+            this.pbxA8.TabIndex = 56;
+            this.pbxA8.TabStop = false;
+            this.pbxA8.Click += new System.EventHandler(this.pbxA8_Click);
+            // 
+            // pbxH7
+            // 
+            this.pbxH7.Location = new System.Drawing.Point(471, 372);
+            this.pbxH7.Name = "pbxH7";
+            this.pbxH7.Size = new System.Drawing.Size(59, 50);
+            this.pbxH7.TabIndex = 55;
+            this.pbxH7.TabStop = false;
+            this.pbxH7.Click += new System.EventHandler(this.pbxH7_Click);
+            // 
+            // pbxG7
+            // 
+            this.pbxG7.Location = new System.Drawing.Point(402, 372);
+            this.pbxG7.Name = "pbxG7";
+            this.pbxG7.Size = new System.Drawing.Size(61, 50);
+            this.pbxG7.TabIndex = 54;
+            this.pbxG7.TabStop = false;
+            this.pbxG7.Click += new System.EventHandler(this.pbxG7_Click);
+            // 
+            // pbxF7
+            // 
+            this.pbxF7.Location = new System.Drawing.Point(336, 372);
+            this.pbxF7.Name = "pbxF7";
+            this.pbxF7.Size = new System.Drawing.Size(60, 50);
+            this.pbxF7.TabIndex = 53;
+            this.pbxF7.TabStop = false;
+            this.pbxF7.Click += new System.EventHandler(this.pbxF7_Click);
+            // 
+            // pbxE7
+            // 
+            this.pbxE7.Location = new System.Drawing.Point(270, 372);
+            this.pbxE7.Name = "pbxE7";
+            this.pbxE7.Size = new System.Drawing.Size(60, 50);
+            this.pbxE7.TabIndex = 52;
+            this.pbxE7.TabStop = false;
+            this.pbxE7.Click += new System.EventHandler(this.pbxE7_Click);
+            // 
+            // pbxD7
+            // 
+            this.pbxD7.Location = new System.Drawing.Point(203, 372);
+            this.pbxD7.Name = "pbxD7";
+            this.pbxD7.Size = new System.Drawing.Size(61, 50);
+            this.pbxD7.TabIndex = 51;
+            this.pbxD7.TabStop = false;
+            this.pbxD7.Click += new System.EventHandler(this.pbxD7_Click);
+            // 
+            // pbxC7
+            // 
+            this.pbxC7.Location = new System.Drawing.Point(136, 372);
+            this.pbxC7.Name = "pbxC7";
+            this.pbxC7.Size = new System.Drawing.Size(61, 50);
+            this.pbxC7.TabIndex = 50;
+            this.pbxC7.TabStop = false;
+            this.pbxC7.Click += new System.EventHandler(this.pbxC7_Click);
+            // 
+            // pbxB7
+            // 
+            this.pbxB7.Location = new System.Drawing.Point(69, 372);
+            this.pbxB7.Name = "pbxB7";
+            this.pbxB7.Size = new System.Drawing.Size(56, 50);
+            this.pbxB7.TabIndex = 49;
+            this.pbxB7.TabStop = false;
+            this.pbxB7.Click += new System.EventHandler(this.pbxB7_Click);
+            // 
+            // pbxA7
+            // 
+            this.pbxA7.Location = new System.Drawing.Point(3, 372);
+            this.pbxA7.Name = "pbxA7";
+            this.pbxA7.Size = new System.Drawing.Size(55, 50);
+            this.pbxA7.TabIndex = 48;
+            this.pbxA7.TabStop = false;
+            this.pbxA7.Click += new System.EventHandler(this.pbxA7_Click);
+            // 
+            // pbxH6
+            // 
+            this.pbxH6.Location = new System.Drawing.Point(471, 311);
+            this.pbxH6.Name = "pbxH6";
+            this.pbxH6.Size = new System.Drawing.Size(59, 50);
+            this.pbxH6.TabIndex = 47;
+            this.pbxH6.TabStop = false;
+            this.pbxH6.Click += new System.EventHandler(this.pbxH6_Click);
+            // 
+            // pbxG6
+            // 
+            this.pbxG6.Location = new System.Drawing.Point(402, 311);
+            this.pbxG6.Name = "pbxG6";
+            this.pbxG6.Size = new System.Drawing.Size(61, 50);
+            this.pbxG6.TabIndex = 46;
+            this.pbxG6.TabStop = false;
+            this.pbxG6.Click += new System.EventHandler(this.pbxG6_Click);
+            // 
+            // pbxF6
+            // 
+            this.pbxF6.Location = new System.Drawing.Point(336, 311);
+            this.pbxF6.Name = "pbxF6";
+            this.pbxF6.Size = new System.Drawing.Size(60, 50);
+            this.pbxF6.TabIndex = 45;
+            this.pbxF6.TabStop = false;
+            this.pbxF6.Click += new System.EventHandler(this.pbxF6_Click);
+            // 
+            // pbxE6
+            // 
+            this.pbxE6.Location = new System.Drawing.Point(270, 311);
+            this.pbxE6.Name = "pbxE6";
+            this.pbxE6.Size = new System.Drawing.Size(60, 50);
+            this.pbxE6.TabIndex = 44;
+            this.pbxE6.TabStop = false;
+            this.pbxE6.Click += new System.EventHandler(this.pbxE6_Click);
+            // 
+            // pbxD6
+            // 
+            this.pbxD6.Location = new System.Drawing.Point(203, 311);
+            this.pbxD6.Name = "pbxD6";
+            this.pbxD6.Size = new System.Drawing.Size(61, 50);
+            this.pbxD6.TabIndex = 43;
+            this.pbxD6.TabStop = false;
+            this.pbxD6.Click += new System.EventHandler(this.pbxD6_Click);
+            // 
+            // pbxC6
+            // 
+            this.pbxC6.Location = new System.Drawing.Point(136, 311);
+            this.pbxC6.Name = "pbxC6";
+            this.pbxC6.Size = new System.Drawing.Size(61, 50);
+            this.pbxC6.TabIndex = 42;
+            this.pbxC6.TabStop = false;
+            this.pbxC6.Click += new System.EventHandler(this.pbxC6_Click);
+            // 
+            // pbxB6
+            // 
+            this.pbxB6.Location = new System.Drawing.Point(69, 311);
+            this.pbxB6.Name = "pbxB6";
+            this.pbxB6.Size = new System.Drawing.Size(56, 50);
+            this.pbxB6.TabIndex = 41;
+            this.pbxB6.TabStop = false;
+            this.pbxB6.Click += new System.EventHandler(this.pbxB6_Click);
+            // 
+            // pbxA6
+            // 
+            this.pbxA6.Location = new System.Drawing.Point(3, 311);
+            this.pbxA6.Name = "pbxA6";
+            this.pbxA6.Size = new System.Drawing.Size(55, 50);
+            this.pbxA6.TabIndex = 40;
+            this.pbxA6.TabStop = false;
+            this.pbxA6.Click += new System.EventHandler(this.pbxA6_Click);
+            // 
+            // pbxH5
+            // 
+            this.pbxH5.Location = new System.Drawing.Point(471, 251);
+            this.pbxH5.Name = "pbxH5";
+            this.pbxH5.Size = new System.Drawing.Size(59, 50);
+            this.pbxH5.TabIndex = 39;
+            this.pbxH5.TabStop = false;
+            this.pbxH5.Click += new System.EventHandler(this.pbxH5_Click);
+            // 
+            // pbxG5
+            // 
+            this.pbxG5.Location = new System.Drawing.Point(402, 251);
+            this.pbxG5.Name = "pbxG5";
+            this.pbxG5.Size = new System.Drawing.Size(61, 50);
+            this.pbxG5.TabIndex = 38;
+            this.pbxG5.TabStop = false;
+            this.pbxG5.Click += new System.EventHandler(this.pbxG5_Click);
+            // 
+            // pbxF5
+            // 
+            this.pbxF5.Location = new System.Drawing.Point(336, 251);
+            this.pbxF5.Name = "pbxF5";
+            this.pbxF5.Size = new System.Drawing.Size(60, 50);
+            this.pbxF5.TabIndex = 37;
+            this.pbxF5.TabStop = false;
+            this.pbxF5.Click += new System.EventHandler(this.pbxF5_Click);
+            // 
+            // pbxE5
+            // 
+            this.pbxE5.Location = new System.Drawing.Point(270, 251);
+            this.pbxE5.Name = "pbxE5";
+            this.pbxE5.Size = new System.Drawing.Size(60, 50);
+            this.pbxE5.TabIndex = 36;
+            this.pbxE5.TabStop = false;
+            this.pbxE5.Click += new System.EventHandler(this.pbxE5_Click);
+            // 
+            // pbxD5
+            // 
+            this.pbxD5.Location = new System.Drawing.Point(203, 251);
+            this.pbxD5.Name = "pbxD5";
+            this.pbxD5.Size = new System.Drawing.Size(61, 50);
+            this.pbxD5.TabIndex = 35;
+            this.pbxD5.TabStop = false;
+            this.pbxD5.Click += new System.EventHandler(this.pbxD5_Click);
+            // 
+            // pbxC5
+            // 
+            this.pbxC5.Location = new System.Drawing.Point(136, 251);
+            this.pbxC5.Name = "pbxC5";
+            this.pbxC5.Size = new System.Drawing.Size(61, 50);
+            this.pbxC5.TabIndex = 34;
+            this.pbxC5.TabStop = false;
+            this.pbxC5.Click += new System.EventHandler(this.pbxC5_Click);
+            // 
+            // pbxB5
+            // 
+            this.pbxB5.Location = new System.Drawing.Point(69, 251);
+            this.pbxB5.Name = "pbxB5";
+            this.pbxB5.Size = new System.Drawing.Size(56, 50);
+            this.pbxB5.TabIndex = 33;
+            this.pbxB5.TabStop = false;
+            this.pbxB5.Click += new System.EventHandler(this.pbxB5_Click);
+            // 
+            // pbxA5
+            // 
+            this.pbxA5.Location = new System.Drawing.Point(3, 251);
+            this.pbxA5.Name = "pbxA5";
+            this.pbxA5.Size = new System.Drawing.Size(55, 50);
+            this.pbxA5.TabIndex = 32;
+            this.pbxA5.TabStop = false;
+            this.pbxA5.Click += new System.EventHandler(this.pbxA5_Click);
+            // 
+            // pbxH4
+            // 
+            this.pbxH4.Location = new System.Drawing.Point(471, 187);
+            this.pbxH4.Name = "pbxH4";
+            this.pbxH4.Size = new System.Drawing.Size(59, 50);
+            this.pbxH4.TabIndex = 31;
+            this.pbxH4.TabStop = false;
+            this.pbxH4.Click += new System.EventHandler(this.pbxH4_Click);
+            // 
+            // pbxG4
+            // 
+            this.pbxG4.Location = new System.Drawing.Point(402, 187);
+            this.pbxG4.Name = "pbxG4";
+            this.pbxG4.Size = new System.Drawing.Size(61, 50);
+            this.pbxG4.TabIndex = 30;
+            this.pbxG4.TabStop = false;
+            this.pbxG4.Click += new System.EventHandler(this.pbxG4_Click);
+            // 
+            // pbxF4
+            // 
+            this.pbxF4.Location = new System.Drawing.Point(336, 187);
+            this.pbxF4.Name = "pbxF4";
+            this.pbxF4.Size = new System.Drawing.Size(60, 50);
+            this.pbxF4.TabIndex = 29;
+            this.pbxF4.TabStop = false;
+            this.pbxF4.Click += new System.EventHandler(this.pbxF4_Click);
+            // 
+            // pbxE4
+            // 
+            this.pbxE4.Location = new System.Drawing.Point(270, 187);
+            this.pbxE4.Name = "pbxE4";
+            this.pbxE4.Size = new System.Drawing.Size(60, 50);
+            this.pbxE4.TabIndex = 28;
+            this.pbxE4.TabStop = false;
+            this.pbxE4.Click += new System.EventHandler(this.pbxE4_Click);
+            // 
+            // pbxD4
+            // 
+            this.pbxD4.Location = new System.Drawing.Point(203, 187);
+            this.pbxD4.Name = "pbxD4";
+            this.pbxD4.Size = new System.Drawing.Size(61, 50);
+            this.pbxD4.TabIndex = 27;
+            this.pbxD4.TabStop = false;
+            this.pbxD4.Click += new System.EventHandler(this.pbxD4_Click);
+            // 
+            // pbxC4
+            // 
+            this.pbxC4.Location = new System.Drawing.Point(136, 187);
+            this.pbxC4.Name = "pbxC4";
+            this.pbxC4.Size = new System.Drawing.Size(61, 50);
+            this.pbxC4.TabIndex = 26;
+            this.pbxC4.TabStop = false;
+            this.pbxC4.Click += new System.EventHandler(this.pbxC4_Click);
+            // 
+            // pbxB4
+            // 
+            this.pbxB4.Location = new System.Drawing.Point(69, 187);
+            this.pbxB4.Name = "pbxB4";
+            this.pbxB4.Size = new System.Drawing.Size(56, 50);
+            this.pbxB4.TabIndex = 25;
+            this.pbxB4.TabStop = false;
+            this.pbxB4.Click += new System.EventHandler(this.pbxB4_Click);
+            // 
+            // pbxA4
+            // 
+            this.pbxA4.Location = new System.Drawing.Point(3, 187);
+            this.pbxA4.Name = "pbxA4";
+            this.pbxA4.Size = new System.Drawing.Size(55, 50);
+            this.pbxA4.TabIndex = 24;
+            this.pbxA4.TabStop = false;
+            this.pbxA4.Click += new System.EventHandler(this.pbxA4_Click);
+            // 
+            // pbxH3
+            // 
+            this.pbxH3.Location = new System.Drawing.Point(471, 125);
+            this.pbxH3.Name = "pbxH3";
+            this.pbxH3.Size = new System.Drawing.Size(59, 50);
+            this.pbxH3.TabIndex = 23;
+            this.pbxH3.TabStop = false;
+            this.pbxH3.Click += new System.EventHandler(this.pbxH3_Click);
+            // 
+            // pbxG3
+            // 
+            this.pbxG3.Location = new System.Drawing.Point(402, 125);
+            this.pbxG3.Name = "pbxG3";
+            this.pbxG3.Size = new System.Drawing.Size(61, 50);
+            this.pbxG3.TabIndex = 22;
+            this.pbxG3.TabStop = false;
+            this.pbxG3.Click += new System.EventHandler(this.pbxG3_Click);
+            // 
+            // pbxF3
+            // 
+            this.pbxF3.Location = new System.Drawing.Point(336, 125);
+            this.pbxF3.Name = "pbxF3";
+            this.pbxF3.Size = new System.Drawing.Size(60, 50);
+            this.pbxF3.TabIndex = 21;
+            this.pbxF3.TabStop = false;
+            this.pbxF3.Click += new System.EventHandler(this.pbxF3_Click);
+            // 
+            // pbxE3
+            // 
+            this.pbxE3.Location = new System.Drawing.Point(270, 125);
+            this.pbxE3.Name = "pbxE3";
+            this.pbxE3.Size = new System.Drawing.Size(60, 50);
+            this.pbxE3.TabIndex = 20;
+            this.pbxE3.TabStop = false;
+            this.pbxE3.Click += new System.EventHandler(this.pbxE3_Click);
+            // 
+            // pbxD3
+            // 
+            this.pbxD3.Location = new System.Drawing.Point(203, 125);
+            this.pbxD3.Name = "pbxD3";
+            this.pbxD3.Size = new System.Drawing.Size(61, 50);
+            this.pbxD3.TabIndex = 19;
+            this.pbxD3.TabStop = false;
+            this.pbxD3.Click += new System.EventHandler(this.pbxD3_Click);
+            // 
+            // pbxC3
+            // 
+            this.pbxC3.Location = new System.Drawing.Point(136, 125);
+            this.pbxC3.Name = "pbxC3";
+            this.pbxC3.Size = new System.Drawing.Size(61, 50);
+            this.pbxC3.TabIndex = 18;
+            this.pbxC3.TabStop = false;
+            this.pbxC3.Click += new System.EventHandler(this.pbxC3_Click);
+            // 
+            // pbxB3
+            // 
+            this.pbxB3.Location = new System.Drawing.Point(69, 125);
+            this.pbxB3.Name = "pbxB3";
+            this.pbxB3.Size = new System.Drawing.Size(56, 50);
+            this.pbxB3.TabIndex = 17;
+            this.pbxB3.TabStop = false;
+            this.pbxB3.Click += new System.EventHandler(this.pbxB3_Click);
+            // 
+            // pbxA3
+            // 
+            this.pbxA3.Location = new System.Drawing.Point(3, 125);
+            this.pbxA3.Name = "pbxA3";
+            this.pbxA3.Size = new System.Drawing.Size(55, 50);
+            this.pbxA3.TabIndex = 16;
+            this.pbxA3.TabStop = false;
+            this.pbxA3.Click += new System.EventHandler(this.pbxA3_Click);
+            // 
+            // pbxH2
+            // 
+            this.pbxH2.Location = new System.Drawing.Point(471, 64);
+            this.pbxH2.Name = "pbxH2";
+            this.pbxH2.Size = new System.Drawing.Size(59, 50);
+            this.pbxH2.TabIndex = 15;
+            this.pbxH2.TabStop = false;
+            this.pbxH2.Click += new System.EventHandler(this.pbxH2_Click);
+            // 
+            // pbxA1
+            // 
+            this.pbxA1.Location = new System.Drawing.Point(3, 3);
+            this.pbxA1.Name = "pbxA1";
+            this.pbxA1.Size = new System.Drawing.Size(55, 50);
+            this.pbxA1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxA1.TabIndex = 0;
+            this.pbxA1.TabStop = false;
+            this.pbxA1.Click += new System.EventHandler(this.pbxA1_Click);
+            // 
+            // pbxB1
+            // 
+            this.pbxB1.Image = global::Checkers_Game.Properties.Resources.board_white_token;
+            this.pbxB1.Location = new System.Drawing.Point(69, 3);
+            this.pbxB1.Name = "pbxB1";
+            this.pbxB1.Size = new System.Drawing.Size(56, 50);
+            this.pbxB1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxB1.TabIndex = 1;
+            this.pbxB1.TabStop = false;
+            this.pbxB1.Click += new System.EventHandler(this.pbxB1_Click);
+            // 
+            // pbxC1
+            // 
+            this.pbxC1.Location = new System.Drawing.Point(136, 3);
+            this.pbxC1.Name = "pbxC1";
+            this.pbxC1.Size = new System.Drawing.Size(61, 50);
+            this.pbxC1.TabIndex = 2;
+            this.pbxC1.TabStop = false;
+            this.pbxC1.Click += new System.EventHandler(this.pbxC1_Click);
+            // 
+            // pbxD1
+            // 
+            this.pbxD1.Location = new System.Drawing.Point(203, 3);
+            this.pbxD1.Name = "pbxD1";
+            this.pbxD1.Size = new System.Drawing.Size(61, 50);
+            this.pbxD1.TabIndex = 3;
+            this.pbxD1.TabStop = false;
+            this.pbxD1.Click += new System.EventHandler(this.pbxD1_Click);
+            // 
+            // pbxE1
+            // 
+            this.pbxE1.Location = new System.Drawing.Point(270, 3);
+            this.pbxE1.Name = "pbxE1";
+            this.pbxE1.Size = new System.Drawing.Size(60, 50);
+            this.pbxE1.TabIndex = 4;
+            this.pbxE1.TabStop = false;
+            this.pbxE1.Click += new System.EventHandler(this.pbxE1_Click);
+            // 
+            // pbxF1
+            // 
+            this.pbxF1.Location = new System.Drawing.Point(336, 3);
+            this.pbxF1.Name = "pbxF1";
+            this.pbxF1.Size = new System.Drawing.Size(60, 50);
+            this.pbxF1.TabIndex = 5;
+            this.pbxF1.TabStop = false;
+            this.pbxF1.Click += new System.EventHandler(this.pbxF1_Click);
+            // 
+            // pbxG1
+            // 
+            this.pbxG1.Location = new System.Drawing.Point(402, 3);
+            this.pbxG1.Name = "pbxG1";
+            this.pbxG1.Size = new System.Drawing.Size(61, 50);
+            this.pbxG1.TabIndex = 6;
+            this.pbxG1.TabStop = false;
+            this.pbxG1.Click += new System.EventHandler(this.pbxG1_Click);
+            // 
+            // pbxH1
+            // 
+            this.pbxH1.Location = new System.Drawing.Point(471, 3);
+            this.pbxH1.Name = "pbxH1";
+            this.pbxH1.Size = new System.Drawing.Size(59, 50);
+            this.pbxH1.TabIndex = 7;
+            this.pbxH1.TabStop = false;
+            this.pbxH1.Click += new System.EventHandler(this.pbxH1_Click);
+            // 
+            // pbxA2
+            // 
+            this.pbxA2.Location = new System.Drawing.Point(3, 64);
+            this.pbxA2.Name = "pbxA2";
+            this.pbxA2.Size = new System.Drawing.Size(55, 50);
+            this.pbxA2.TabIndex = 8;
+            this.pbxA2.TabStop = false;
+            this.pbxA2.Click += new System.EventHandler(this.pbxA2_Click);
+            // 
+            // pbxB2
+            // 
+            this.pbxB2.Location = new System.Drawing.Point(69, 64);
+            this.pbxB2.Name = "pbxB2";
+            this.pbxB2.Size = new System.Drawing.Size(56, 50);
+            this.pbxB2.TabIndex = 9;
+            this.pbxB2.TabStop = false;
+            this.pbxB2.Click += new System.EventHandler(this.pbxB2_Click);
+            // 
+            // pbxC2
+            // 
+            this.pbxC2.Location = new System.Drawing.Point(136, 64);
+            this.pbxC2.Name = "pbxC2";
+            this.pbxC2.Size = new System.Drawing.Size(61, 50);
+            this.pbxC2.TabIndex = 10;
+            this.pbxC2.TabStop = false;
+            this.pbxC2.Click += new System.EventHandler(this.pbxC2_Click);
+            // 
+            // pbxD2
+            // 
+            this.pbxD2.Location = new System.Drawing.Point(203, 64);
+            this.pbxD2.Name = "pbxD2";
+            this.pbxD2.Size = new System.Drawing.Size(61, 50);
+            this.pbxD2.TabIndex = 11;
+            this.pbxD2.TabStop = false;
+            this.pbxD2.Click += new System.EventHandler(this.pbxD2_Click);
+            // 
+            // pbxE2
+            // 
+            this.pbxE2.Location = new System.Drawing.Point(270, 64);
+            this.pbxE2.Name = "pbxE2";
+            this.pbxE2.Size = new System.Drawing.Size(60, 50);
+            this.pbxE2.TabIndex = 12;
+            this.pbxE2.TabStop = false;
+            this.pbxE2.Click += new System.EventHandler(this.pbxE2_Click);
+            // 
+            // pbxF2
+            // 
+            this.pbxF2.Location = new System.Drawing.Point(336, 64);
+            this.pbxF2.Name = "pbxF2";
+            this.pbxF2.Size = new System.Drawing.Size(60, 50);
+            this.pbxF2.TabIndex = 13;
+            this.pbxF2.TabStop = false;
+            this.pbxF2.Click += new System.EventHandler(this.pbxF2_Click);
+            // 
+            // pbxG2
+            // 
+            this.pbxG2.Location = new System.Drawing.Point(402, 64);
+            this.pbxG2.Name = "pbxG2";
+            this.pbxG2.Size = new System.Drawing.Size(61, 50);
+            this.pbxG2.TabIndex = 14;
+            this.pbxG2.TabStop = false;
+            this.pbxG2.Click += new System.EventHandler(this.pbxG2_Click);
             // 
             // pbxGameBoardButtons
             // 
@@ -789,7 +853,7 @@
             // 
             // pbxGameBoard
             // 
-            this.pbxGameBoard.Image = global::Checkers_Game.Properties.Resources.checkers_table;
+            this.pbxGameBoard.Image = ((System.Drawing.Image)(resources.GetObject("pbxGameBoard.Image")));
             this.pbxGameBoard.Location = new System.Drawing.Point(12, 12);
             this.pbxGameBoard.Name = "pbxGameBoard";
             this.pbxGameBoard.Size = new System.Drawing.Size(533, 492);
@@ -870,11 +934,26 @@
             this.lblSecondPlayerTokens.TabIndex = 8;
             this.lblSecondPlayerTokens.Text = "0";
             // 
+            // btnHelp
+            // 
+            this.btnHelp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(5)))), ((int)(((byte)(31)))));
+            this.btnHelp.BackgroundImage = global::Checkers_Game.Properties.Resources.question_pixel_icon;
+            this.btnHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHelp.FlatAppearance.BorderSize = 0;
+            this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHelp.Location = new System.Drawing.Point(789, 454);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(53, 48);
+            this.btnHelp.TabIndex = 9;
+            this.btnHelp.UseVisualStyleBackColor = false;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
             // frmGameBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(854, 514);
+            this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.lblSecondPlayerTokens);
             this.Controls.Add(this.lblFirstPlayerTokens);
             this.Controls.Add(this.lblSecondPlayer);
@@ -891,70 +970,70 @@
             this.Text = "Checkers Board";
             this.Load += new System.EventHandler(this.frmGameBoard_Load);
             this.tlpGameBoard.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxH1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxA2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxB2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxC2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxD2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxE2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxF2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxG2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoardButtons)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoard)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTurn)).EndInit();
@@ -967,70 +1046,70 @@
 
         private System.Windows.Forms.PictureBox pbxGameBoard;
         private System.Windows.Forms.TableLayoutPanel tlpGameBoard;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox64;
-        private System.Windows.Forms.PictureBox pictureBox63;
-        private System.Windows.Forms.PictureBox pictureBox62;
-        private System.Windows.Forms.PictureBox pictureBox61;
-        private System.Windows.Forms.PictureBox pictureBox60;
-        private System.Windows.Forms.PictureBox pictureBox59;
-        private System.Windows.Forms.PictureBox pictureBox58;
-        private System.Windows.Forms.PictureBox pictureBox57;
-        private System.Windows.Forms.PictureBox pictureBox56;
-        private System.Windows.Forms.PictureBox pictureBox55;
-        private System.Windows.Forms.PictureBox pictureBox54;
-        private System.Windows.Forms.PictureBox pictureBox53;
-        private System.Windows.Forms.PictureBox pictureBox52;
-        private System.Windows.Forms.PictureBox pictureBox51;
-        private System.Windows.Forms.PictureBox pictureBox50;
-        private System.Windows.Forms.PictureBox pictureBox49;
-        private System.Windows.Forms.PictureBox pictureBox48;
-        private System.Windows.Forms.PictureBox pictureBox47;
-        private System.Windows.Forms.PictureBox pictureBox46;
-        private System.Windows.Forms.PictureBox pictureBox45;
-        private System.Windows.Forms.PictureBox pictureBox44;
-        private System.Windows.Forms.PictureBox pictureBox43;
-        private System.Windows.Forms.PictureBox pictureBox42;
-        private System.Windows.Forms.PictureBox pictureBox41;
-        private System.Windows.Forms.PictureBox pictureBox40;
-        private System.Windows.Forms.PictureBox pictureBox39;
-        private System.Windows.Forms.PictureBox pictureBox38;
-        private System.Windows.Forms.PictureBox pictureBox37;
-        private System.Windows.Forms.PictureBox pictureBox36;
-        private System.Windows.Forms.PictureBox pictureBox35;
-        private System.Windows.Forms.PictureBox pictureBox34;
-        private System.Windows.Forms.PictureBox pictureBox33;
-        private System.Windows.Forms.PictureBox pictureBox32;
-        private System.Windows.Forms.PictureBox pictureBox31;
-        private System.Windows.Forms.PictureBox pictureBox30;
-        private System.Windows.Forms.PictureBox pictureBox29;
-        private System.Windows.Forms.PictureBox pictureBox28;
-        private System.Windows.Forms.PictureBox pictureBox27;
-        private System.Windows.Forms.PictureBox pictureBox26;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pbxA1;
+        private System.Windows.Forms.PictureBox pbxB1;
+        private System.Windows.Forms.PictureBox pbxH8;
+        private System.Windows.Forms.PictureBox pbxG8;
+        private System.Windows.Forms.PictureBox pbxF8;
+        private System.Windows.Forms.PictureBox pbxE8;
+        private System.Windows.Forms.PictureBox pbxD8;
+        private System.Windows.Forms.PictureBox pbxC8;
+        private System.Windows.Forms.PictureBox pbxB8;
+        private System.Windows.Forms.PictureBox pbxA8;
+        private System.Windows.Forms.PictureBox pbxH7;
+        private System.Windows.Forms.PictureBox pbxG7;
+        private System.Windows.Forms.PictureBox pbxF7;
+        private System.Windows.Forms.PictureBox pbxE7;
+        private System.Windows.Forms.PictureBox pbxD7;
+        private System.Windows.Forms.PictureBox pbxC7;
+        private System.Windows.Forms.PictureBox pbxB7;
+        private System.Windows.Forms.PictureBox pbxA7;
+        private System.Windows.Forms.PictureBox pbxH6;
+        private System.Windows.Forms.PictureBox pbxG6;
+        private System.Windows.Forms.PictureBox pbxF6;
+        private System.Windows.Forms.PictureBox pbxE6;
+        private System.Windows.Forms.PictureBox pbxD6;
+        private System.Windows.Forms.PictureBox pbxC6;
+        private System.Windows.Forms.PictureBox pbxB6;
+        private System.Windows.Forms.PictureBox pbxA6;
+        private System.Windows.Forms.PictureBox pbxH5;
+        private System.Windows.Forms.PictureBox pbxG5;
+        private System.Windows.Forms.PictureBox pbxF5;
+        private System.Windows.Forms.PictureBox pbxE5;
+        private System.Windows.Forms.PictureBox pbxD5;
+        private System.Windows.Forms.PictureBox pbxC5;
+        private System.Windows.Forms.PictureBox pbxB5;
+        private System.Windows.Forms.PictureBox pbxA5;
+        private System.Windows.Forms.PictureBox pbxH4;
+        private System.Windows.Forms.PictureBox pbxG4;
+        private System.Windows.Forms.PictureBox pbxF4;
+        private System.Windows.Forms.PictureBox pbxE4;
+        private System.Windows.Forms.PictureBox pbxD4;
+        private System.Windows.Forms.PictureBox pbxC4;
+        private System.Windows.Forms.PictureBox pbxB4;
+        private System.Windows.Forms.PictureBox pbxA4;
+        private System.Windows.Forms.PictureBox pbxH3;
+        private System.Windows.Forms.PictureBox pbxG3;
+        private System.Windows.Forms.PictureBox pbxF3;
+        private System.Windows.Forms.PictureBox pbxE3;
+        private System.Windows.Forms.PictureBox pbxD3;
+        private System.Windows.Forms.PictureBox pbxC3;
+        private System.Windows.Forms.PictureBox pbxB3;
+        private System.Windows.Forms.PictureBox pbxA3;
+        private System.Windows.Forms.PictureBox pbxH2;
+        private System.Windows.Forms.PictureBox pbxC1;
+        private System.Windows.Forms.PictureBox pbxD1;
+        private System.Windows.Forms.PictureBox pbxE1;
+        private System.Windows.Forms.PictureBox pbxF1;
+        private System.Windows.Forms.PictureBox pbxG1;
+        private System.Windows.Forms.PictureBox pbxH1;
+        private System.Windows.Forms.PictureBox pbxA2;
+        private System.Windows.Forms.PictureBox pbxB2;
+        private System.Windows.Forms.PictureBox pbxC2;
+        private System.Windows.Forms.PictureBox pbxD2;
+        private System.Windows.Forms.PictureBox pbxE2;
+        private System.Windows.Forms.PictureBox pbxF2;
+        private System.Windows.Forms.PictureBox pbxG2;
         private System.Windows.Forms.PictureBox pbxGameBoardButtons;
         private System.Windows.Forms.PictureBox pbxTurn;
         private System.Windows.Forms.Label lblTokensTitle;
@@ -1038,5 +1117,6 @@
         private System.Windows.Forms.Label lblSecondPlayer;
         private System.Windows.Forms.Label lblFirstPlayerTokens;
         private System.Windows.Forms.Label lblSecondPlayerTokens;
+        private System.Windows.Forms.Button btnHelp;
     }
 }
