@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGameBoard));
             this.tlpGameBoard = new System.Windows.Forms.TableLayoutPanel();
-            this.pbxGameBoardButtons = new System.Windows.Forms.PictureBox();
             this.pictureBox64 = new System.Windows.Forms.PictureBox();
             this.pictureBox63 = new System.Windows.Forms.PictureBox();
             this.pictureBox62 = new System.Windows.Forms.PictureBox();
@@ -95,10 +94,15 @@
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pbxGameBoardButtons = new System.Windows.Forms.PictureBox();
             this.pbxGameBoard = new System.Windows.Forms.PictureBox();
-            this.lblTurno = new System.Windows.Forms.Label();
+            this.pbxTurn = new System.Windows.Forms.PictureBox();
+            this.lblTokensTitle = new System.Windows.Forms.Label();
+            this.lblFirstPlayer = new System.Windows.Forms.Label();
+            this.lblSecondPlayer = new System.Windows.Forms.Label();
+            this.lblFirstPlayerTokens = new System.Windows.Forms.Label();
+            this.lblSecondPlayerTokens = new System.Windows.Forms.Label();
             this.tlpGameBoard.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoardButtons)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).BeginInit();
@@ -163,7 +167,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoardButtons)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTurn)).BeginInit();
             this.SuspendLayout();
             // 
             // tlpGameBoard
@@ -256,14 +262,6 @@
             this.tlpGameBoard.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
             this.tlpGameBoard.Size = new System.Drawing.Size(533, 492);
             this.tlpGameBoard.TabIndex = 1;
-            // 
-            // pbxGameBoardButtons
-            // 
-            this.pbxGameBoardButtons.Location = new System.Drawing.Point(551, 1);
-            this.pbxGameBoardButtons.Name = "pbxGameBoardButtons";
-            this.pbxGameBoardButtons.Size = new System.Drawing.Size(272, 513);
-            this.pbxGameBoardButtons.TabIndex = 2;
-            this.pbxGameBoardButtons.TabStop = false;
             // 
             // pictureBox64
             // 
@@ -781,6 +779,14 @@
             this.pictureBox15.TabIndex = 14;
             this.pictureBox15.TabStop = false;
             // 
+            // pbxGameBoardButtons
+            // 
+            this.pbxGameBoardButtons.Location = new System.Drawing.Point(551, 4);
+            this.pbxGameBoardButtons.Name = "pbxGameBoardButtons";
+            this.pbxGameBoardButtons.Size = new System.Drawing.Size(303, 510);
+            this.pbxGameBoardButtons.TabIndex = 2;
+            this.pbxGameBoardButtons.TabStop = false;
+            // 
             // pbxGameBoard
             // 
             this.pbxGameBoard.Image = global::Checkers_Game.Properties.Resources.checkers_table;
@@ -791,21 +797,90 @@
             this.pbxGameBoard.TabIndex = 0;
             this.pbxGameBoard.TabStop = false;
             // 
-            // lblTurno
+            // pbxTurn
             // 
-            this.lblTurno.AutoSize = true;
-            this.lblTurno.Location = new System.Drawing.Point(657, 38);
-            this.lblTurno.Name = "lblTurno";
-            this.lblTurno.Size = new System.Drawing.Size(44, 16);
-            this.lblTurno.TabIndex = 3;
-            this.lblTurno.Text = "label1";
+            this.pbxTurn.BackColor = System.Drawing.Color.Transparent;
+            this.pbxTurn.BackgroundImage = global::Checkers_Game.Properties.Resources.label_button_first_player;
+            this.pbxTurn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbxTurn.Image = global::Checkers_Game.Properties.Resources.label_button_first_player;
+            this.pbxTurn.Location = new System.Drawing.Point(584, 126);
+            this.pbxTurn.Name = "pbxTurn";
+            this.pbxTurn.Size = new System.Drawing.Size(226, 95);
+            this.pbxTurn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxTurn.TabIndex = 3;
+            this.pbxTurn.TabStop = false;
+            // 
+            // lblTokensTitle
+            // 
+            this.lblTokensTitle.AutoSize = true;
+            this.lblTokensTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(5)))), ((int)(((byte)(31)))));
+            this.lblTokensTitle.Font = new System.Drawing.Font("Pixel-Art", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTokensTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTokensTitle.Location = new System.Drawing.Point(581, 12);
+            this.lblTokensTitle.Name = "lblTokensTitle";
+            this.lblTokensTitle.Size = new System.Drawing.Size(228, 18);
+            this.lblTokensTitle.TabIndex = 4;
+            this.lblTokensTitle.Text = "Fichas de Juego";
+            // 
+            // lblFirstPlayer
+            // 
+            this.lblFirstPlayer.AutoSize = true;
+            this.lblFirstPlayer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(5)))), ((int)(((byte)(31)))));
+            this.lblFirstPlayer.Font = new System.Drawing.Font("Pixel-Art", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFirstPlayer.ForeColor = System.Drawing.Color.White;
+            this.lblFirstPlayer.Location = new System.Drawing.Point(566, 53);
+            this.lblFirstPlayer.Name = "lblFirstPlayer";
+            this.lblFirstPlayer.Size = new System.Drawing.Size(194, 15);
+            this.lblFirstPlayer.TabIndex = 5;
+            this.lblFirstPlayer.Text = "Primer Jugador";
+            // 
+            // lblSecondPlayer
+            // 
+            this.lblSecondPlayer.AutoSize = true;
+            this.lblSecondPlayer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(5)))), ((int)(((byte)(31)))));
+            this.lblSecondPlayer.Font = new System.Drawing.Font("Pixel-Art", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSecondPlayer.ForeColor = System.Drawing.Color.White;
+            this.lblSecondPlayer.Location = new System.Drawing.Point(566, 86);
+            this.lblSecondPlayer.Name = "lblSecondPlayer";
+            this.lblSecondPlayer.Size = new System.Drawing.Size(208, 15);
+            this.lblSecondPlayer.TabIndex = 6;
+            this.lblSecondPlayer.Text = "Segundo Jugador";
+            // 
+            // lblFirstPlayerTokens
+            // 
+            this.lblFirstPlayerTokens.AutoSize = true;
+            this.lblFirstPlayerTokens.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(5)))), ((int)(((byte)(31)))));
+            this.lblFirstPlayerTokens.Font = new System.Drawing.Font("Pixel-Art", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFirstPlayerTokens.ForeColor = System.Drawing.Color.White;
+            this.lblFirstPlayerTokens.Location = new System.Drawing.Point(813, 53);
+            this.lblFirstPlayerTokens.Name = "lblFirstPlayerTokens";
+            this.lblFirstPlayerTokens.Size = new System.Drawing.Size(19, 15);
+            this.lblFirstPlayerTokens.TabIndex = 7;
+            this.lblFirstPlayerTokens.Text = "0";
+            // 
+            // lblSecondPlayerTokens
+            // 
+            this.lblSecondPlayerTokens.AutoSize = true;
+            this.lblSecondPlayerTokens.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(5)))), ((int)(((byte)(31)))));
+            this.lblSecondPlayerTokens.Font = new System.Drawing.Font("Pixel-Art", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSecondPlayerTokens.ForeColor = System.Drawing.Color.White;
+            this.lblSecondPlayerTokens.Location = new System.Drawing.Point(813, 86);
+            this.lblSecondPlayerTokens.Name = "lblSecondPlayerTokens";
+            this.lblSecondPlayerTokens.Size = new System.Drawing.Size(19, 15);
+            this.lblSecondPlayerTokens.TabIndex = 8;
+            this.lblSecondPlayerTokens.Text = "0";
             // 
             // frmGameBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(822, 514);
-            this.Controls.Add(this.lblTurno);
+            this.ClientSize = new System.Drawing.Size(854, 514);
+            this.Controls.Add(this.lblSecondPlayerTokens);
+            this.Controls.Add(this.lblFirstPlayerTokens);
+            this.Controls.Add(this.lblSecondPlayer);
+            this.Controls.Add(this.lblFirstPlayer);
+            this.Controls.Add(this.lblTokensTitle);
+            this.Controls.Add(this.pbxTurn);
             this.Controls.Add(this.pbxGameBoardButtons);
             this.Controls.Add(this.tlpGameBoard);
             this.Controls.Add(this.pbxGameBoard);
@@ -813,10 +888,9 @@
             this.MaximizeBox = false;
             this.Name = "frmGameBoard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmGameBoard";
+            this.Text = "Checkers Board";
             this.Load += new System.EventHandler(this.frmGameBoard_Load);
             this.tlpGameBoard.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoardButtons)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).EndInit();
@@ -881,7 +955,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoardButtons)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTurn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -956,6 +1032,11 @@
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pbxGameBoardButtons;
-        private System.Windows.Forms.Label lblTurno;
+        private System.Windows.Forms.PictureBox pbxTurn;
+        private System.Windows.Forms.Label lblTokensTitle;
+        private System.Windows.Forms.Label lblFirstPlayer;
+        private System.Windows.Forms.Label lblSecondPlayer;
+        private System.Windows.Forms.Label lblFirstPlayerTokens;
+        private System.Windows.Forms.Label lblSecondPlayerTokens;
     }
 }

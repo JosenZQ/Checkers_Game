@@ -28,9 +28,9 @@ namespace Checkers_Game
             pbxGameBoardButtons.Image = Resources.shiny_stars;
             pbxGameBoardButtons.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            var image = Resources.label_button_first_player;
-            lblTurno.Size = image.Size;
-            lblTurno.Image = image;
+            pbxTurn.BackgroundImage = Resources.shiny_stars;
+            pbxTurn.Image = Resources.label_button_first_player;
+
         }
 
         //ESTA FUNCIÓN ES PARA CONTROLAR EL CIERRE DE LA VENTANA
