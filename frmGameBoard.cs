@@ -67,6 +67,7 @@ namespace Checkers_Game
                         mTokenBoxesList.Add(mTokenBox);
                         _Box.BackgroundImage = Resources.board_black_token;
                         mTurn = "SecondPlayer";
+                        pbxTurn.Image = Resources.label_button_second_player;
                         mFirstPlayerTokens += 1;
                         lblFirstPlayerTokens.Text = mFirstPlayerTokens.ToString();
                         mTokensCount--;
@@ -79,6 +80,7 @@ namespace Checkers_Game
                         mTokenBoxesList.Add(mTokenBox);
                         _Box.BackgroundImage = Resources.board_white_token;
                         mTurn = "FirstPlayer";
+                        pbxTurn.Image = Resources.label_button_first_player;
                         mSecondPlayerTokens += 1;
                         lblSecondPlayerTokens.Text = mSecondPlayerTokens.ToString();
                         mTokensCount--;
