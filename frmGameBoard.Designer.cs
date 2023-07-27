@@ -95,7 +95,6 @@
             this.pbxF2 = new System.Windows.Forms.PictureBox();
             this.pbxG2 = new System.Windows.Forms.PictureBox();
             this.pbxGameBoardButtons = new System.Windows.Forms.PictureBox();
-            this.pbxGameBoard = new System.Windows.Forms.PictureBox();
             this.pbxTurn = new System.Windows.Forms.PictureBox();
             this.lblTokensTitle = new System.Windows.Forms.Label();
             this.lblFirstPlayer = new System.Windows.Forms.Label();
@@ -169,7 +168,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxF2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxG2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoardButtons)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoard)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTurn)).BeginInit();
             this.SuspendLayout();
             // 
@@ -266,450 +264,550 @@
             // 
             // pbxH8
             // 
+            this.pbxH8.BackColor = System.Drawing.Color.White;
+            this.pbxH8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxH8.Location = new System.Drawing.Point(471, 434);
             this.pbxH8.Name = "pbxH8";
-            this.pbxH8.Size = new System.Drawing.Size(59, 50);
+            this.pbxH8.Size = new System.Drawing.Size(59, 55);
             this.pbxH8.TabIndex = 63;
             this.pbxH8.TabStop = false;
             this.pbxH8.Click += new System.EventHandler(this.pbxH8_Click);
             // 
             // pbxG8
             // 
+            this.pbxG8.BackColor = System.Drawing.Color.Black;
+            this.pbxG8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxG8.Location = new System.Drawing.Point(402, 434);
             this.pbxG8.Name = "pbxG8";
-            this.pbxG8.Size = new System.Drawing.Size(61, 50);
+            this.pbxG8.Size = new System.Drawing.Size(63, 55);
             this.pbxG8.TabIndex = 62;
             this.pbxG8.TabStop = false;
             this.pbxG8.Click += new System.EventHandler(this.pbxG8_Click);
             // 
             // pbxF8
             // 
+            this.pbxF8.BackColor = System.Drawing.Color.White;
+            this.pbxF8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxF8.Location = new System.Drawing.Point(336, 434);
             this.pbxF8.Name = "pbxF8";
-            this.pbxF8.Size = new System.Drawing.Size(60, 50);
+            this.pbxF8.Size = new System.Drawing.Size(60, 55);
             this.pbxF8.TabIndex = 61;
             this.pbxF8.TabStop = false;
             this.pbxF8.Click += new System.EventHandler(this.pbxF8_Click);
             // 
             // pbxE8
             // 
+            this.pbxE8.BackColor = System.Drawing.Color.Black;
+            this.pbxE8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxE8.Location = new System.Drawing.Point(270, 434);
             this.pbxE8.Name = "pbxE8";
-            this.pbxE8.Size = new System.Drawing.Size(60, 50);
+            this.pbxE8.Size = new System.Drawing.Size(60, 55);
             this.pbxE8.TabIndex = 60;
             this.pbxE8.TabStop = false;
             this.pbxE8.Click += new System.EventHandler(this.pbxE8_Click);
             // 
             // pbxD8
             // 
+            this.pbxD8.BackColor = System.Drawing.Color.White;
+            this.pbxD8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxD8.Location = new System.Drawing.Point(203, 434);
             this.pbxD8.Name = "pbxD8";
-            this.pbxD8.Size = new System.Drawing.Size(61, 50);
+            this.pbxD8.Size = new System.Drawing.Size(61, 55);
             this.pbxD8.TabIndex = 59;
             this.pbxD8.TabStop = false;
             this.pbxD8.Click += new System.EventHandler(this.pbxD8_Click);
             // 
             // pbxC8
             // 
+            this.pbxC8.BackColor = System.Drawing.Color.Black;
+            this.pbxC8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxC8.Location = new System.Drawing.Point(136, 434);
             this.pbxC8.Name = "pbxC8";
-            this.pbxC8.Size = new System.Drawing.Size(61, 50);
+            this.pbxC8.Size = new System.Drawing.Size(61, 55);
             this.pbxC8.TabIndex = 58;
             this.pbxC8.TabStop = false;
             this.pbxC8.Click += new System.EventHandler(this.pbxC8_Click);
             // 
             // pbxB8
             // 
+            this.pbxB8.BackColor = System.Drawing.Color.White;
+            this.pbxB8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxB8.Location = new System.Drawing.Point(69, 434);
             this.pbxB8.Name = "pbxB8";
-            this.pbxB8.Size = new System.Drawing.Size(56, 50);
+            this.pbxB8.Size = new System.Drawing.Size(61, 55);
             this.pbxB8.TabIndex = 57;
             this.pbxB8.TabStop = false;
             this.pbxB8.Click += new System.EventHandler(this.pbxB8_Click);
             // 
             // pbxA8
             // 
+            this.pbxA8.BackColor = System.Drawing.Color.Black;
+            this.pbxA8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxA8.Location = new System.Drawing.Point(3, 434);
             this.pbxA8.Name = "pbxA8";
-            this.pbxA8.Size = new System.Drawing.Size(55, 50);
+            this.pbxA8.Size = new System.Drawing.Size(60, 55);
             this.pbxA8.TabIndex = 56;
             this.pbxA8.TabStop = false;
             this.pbxA8.Click += new System.EventHandler(this.pbxA8_Click);
             // 
             // pbxH7
             // 
+            this.pbxH7.BackColor = System.Drawing.Color.Black;
+            this.pbxH7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxH7.Location = new System.Drawing.Point(471, 372);
             this.pbxH7.Name = "pbxH7";
-            this.pbxH7.Size = new System.Drawing.Size(59, 50);
+            this.pbxH7.Size = new System.Drawing.Size(59, 56);
             this.pbxH7.TabIndex = 55;
             this.pbxH7.TabStop = false;
             this.pbxH7.Click += new System.EventHandler(this.pbxH7_Click);
             // 
             // pbxG7
             // 
+            this.pbxG7.BackColor = System.Drawing.Color.White;
+            this.pbxG7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxG7.Location = new System.Drawing.Point(402, 372);
             this.pbxG7.Name = "pbxG7";
-            this.pbxG7.Size = new System.Drawing.Size(61, 50);
+            this.pbxG7.Size = new System.Drawing.Size(63, 56);
             this.pbxG7.TabIndex = 54;
             this.pbxG7.TabStop = false;
             this.pbxG7.Click += new System.EventHandler(this.pbxG7_Click);
             // 
             // pbxF7
             // 
+            this.pbxF7.BackColor = System.Drawing.Color.Black;
+            this.pbxF7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxF7.Location = new System.Drawing.Point(336, 372);
             this.pbxF7.Name = "pbxF7";
-            this.pbxF7.Size = new System.Drawing.Size(60, 50);
+            this.pbxF7.Size = new System.Drawing.Size(60, 56);
             this.pbxF7.TabIndex = 53;
             this.pbxF7.TabStop = false;
             this.pbxF7.Click += new System.EventHandler(this.pbxF7_Click);
             // 
             // pbxE7
             // 
+            this.pbxE7.BackColor = System.Drawing.Color.White;
+            this.pbxE7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxE7.Location = new System.Drawing.Point(270, 372);
             this.pbxE7.Name = "pbxE7";
-            this.pbxE7.Size = new System.Drawing.Size(60, 50);
+            this.pbxE7.Size = new System.Drawing.Size(60, 56);
             this.pbxE7.TabIndex = 52;
             this.pbxE7.TabStop = false;
             this.pbxE7.Click += new System.EventHandler(this.pbxE7_Click);
             // 
             // pbxD7
             // 
+            this.pbxD7.BackColor = System.Drawing.Color.Black;
+            this.pbxD7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxD7.Location = new System.Drawing.Point(203, 372);
             this.pbxD7.Name = "pbxD7";
-            this.pbxD7.Size = new System.Drawing.Size(61, 50);
+            this.pbxD7.Size = new System.Drawing.Size(61, 56);
             this.pbxD7.TabIndex = 51;
             this.pbxD7.TabStop = false;
             this.pbxD7.Click += new System.EventHandler(this.pbxD7_Click);
             // 
             // pbxC7
             // 
+            this.pbxC7.BackColor = System.Drawing.Color.White;
+            this.pbxC7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxC7.Location = new System.Drawing.Point(136, 372);
             this.pbxC7.Name = "pbxC7";
-            this.pbxC7.Size = new System.Drawing.Size(61, 50);
+            this.pbxC7.Size = new System.Drawing.Size(61, 56);
             this.pbxC7.TabIndex = 50;
             this.pbxC7.TabStop = false;
             this.pbxC7.Click += new System.EventHandler(this.pbxC7_Click);
             // 
             // pbxB7
             // 
+            this.pbxB7.BackColor = System.Drawing.Color.Black;
+            this.pbxB7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxB7.Location = new System.Drawing.Point(69, 372);
             this.pbxB7.Name = "pbxB7";
-            this.pbxB7.Size = new System.Drawing.Size(56, 50);
+            this.pbxB7.Size = new System.Drawing.Size(61, 56);
             this.pbxB7.TabIndex = 49;
             this.pbxB7.TabStop = false;
             this.pbxB7.Click += new System.EventHandler(this.pbxB7_Click);
             // 
             // pbxA7
             // 
+            this.pbxA7.BackColor = System.Drawing.Color.White;
+            this.pbxA7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxA7.Location = new System.Drawing.Point(3, 372);
             this.pbxA7.Name = "pbxA7";
-            this.pbxA7.Size = new System.Drawing.Size(55, 50);
+            this.pbxA7.Size = new System.Drawing.Size(60, 56);
             this.pbxA7.TabIndex = 48;
             this.pbxA7.TabStop = false;
             this.pbxA7.Click += new System.EventHandler(this.pbxA7_Click);
             // 
             // pbxH6
             // 
+            this.pbxH6.BackColor = System.Drawing.Color.White;
+            this.pbxH6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxH6.Location = new System.Drawing.Point(471, 311);
             this.pbxH6.Name = "pbxH6";
-            this.pbxH6.Size = new System.Drawing.Size(59, 50);
+            this.pbxH6.Size = new System.Drawing.Size(59, 55);
             this.pbxH6.TabIndex = 47;
             this.pbxH6.TabStop = false;
             this.pbxH6.Click += new System.EventHandler(this.pbxH6_Click);
             // 
             // pbxG6
             // 
+            this.pbxG6.BackColor = System.Drawing.Color.Black;
+            this.pbxG6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxG6.Location = new System.Drawing.Point(402, 311);
             this.pbxG6.Name = "pbxG6";
-            this.pbxG6.Size = new System.Drawing.Size(61, 50);
+            this.pbxG6.Size = new System.Drawing.Size(63, 55);
             this.pbxG6.TabIndex = 46;
             this.pbxG6.TabStop = false;
             this.pbxG6.Click += new System.EventHandler(this.pbxG6_Click);
             // 
             // pbxF6
             // 
+            this.pbxF6.BackColor = System.Drawing.Color.White;
+            this.pbxF6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxF6.Location = new System.Drawing.Point(336, 311);
             this.pbxF6.Name = "pbxF6";
-            this.pbxF6.Size = new System.Drawing.Size(60, 50);
+            this.pbxF6.Size = new System.Drawing.Size(60, 55);
             this.pbxF6.TabIndex = 45;
             this.pbxF6.TabStop = false;
             this.pbxF6.Click += new System.EventHandler(this.pbxF6_Click);
             // 
             // pbxE6
             // 
+            this.pbxE6.BackColor = System.Drawing.Color.Black;
+            this.pbxE6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxE6.Location = new System.Drawing.Point(270, 311);
             this.pbxE6.Name = "pbxE6";
-            this.pbxE6.Size = new System.Drawing.Size(60, 50);
+            this.pbxE6.Size = new System.Drawing.Size(60, 55);
             this.pbxE6.TabIndex = 44;
             this.pbxE6.TabStop = false;
             this.pbxE6.Click += new System.EventHandler(this.pbxE6_Click);
             // 
             // pbxD6
             // 
+            this.pbxD6.BackColor = System.Drawing.Color.White;
+            this.pbxD6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxD6.Location = new System.Drawing.Point(203, 311);
             this.pbxD6.Name = "pbxD6";
-            this.pbxD6.Size = new System.Drawing.Size(61, 50);
+            this.pbxD6.Size = new System.Drawing.Size(61, 55);
             this.pbxD6.TabIndex = 43;
             this.pbxD6.TabStop = false;
             this.pbxD6.Click += new System.EventHandler(this.pbxD6_Click);
             // 
             // pbxC6
             // 
+            this.pbxC6.BackColor = System.Drawing.Color.Black;
+            this.pbxC6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxC6.Location = new System.Drawing.Point(136, 311);
             this.pbxC6.Name = "pbxC6";
-            this.pbxC6.Size = new System.Drawing.Size(61, 50);
+            this.pbxC6.Size = new System.Drawing.Size(61, 55);
             this.pbxC6.TabIndex = 42;
             this.pbxC6.TabStop = false;
             this.pbxC6.Click += new System.EventHandler(this.pbxC6_Click);
             // 
             // pbxB6
             // 
+            this.pbxB6.BackColor = System.Drawing.Color.White;
+            this.pbxB6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxB6.Location = new System.Drawing.Point(69, 311);
             this.pbxB6.Name = "pbxB6";
-            this.pbxB6.Size = new System.Drawing.Size(56, 50);
+            this.pbxB6.Size = new System.Drawing.Size(61, 55);
             this.pbxB6.TabIndex = 41;
             this.pbxB6.TabStop = false;
             this.pbxB6.Click += new System.EventHandler(this.pbxB6_Click);
             // 
             // pbxA6
             // 
+            this.pbxA6.BackColor = System.Drawing.Color.Black;
+            this.pbxA6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxA6.Location = new System.Drawing.Point(3, 311);
             this.pbxA6.Name = "pbxA6";
-            this.pbxA6.Size = new System.Drawing.Size(55, 50);
+            this.pbxA6.Size = new System.Drawing.Size(60, 55);
             this.pbxA6.TabIndex = 40;
             this.pbxA6.TabStop = false;
             this.pbxA6.Click += new System.EventHandler(this.pbxA6_Click);
             // 
             // pbxH5
             // 
+            this.pbxH5.BackColor = System.Drawing.Color.Black;
+            this.pbxH5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxH5.Location = new System.Drawing.Point(471, 251);
             this.pbxH5.Name = "pbxH5";
-            this.pbxH5.Size = new System.Drawing.Size(59, 50);
+            this.pbxH5.Size = new System.Drawing.Size(59, 54);
             this.pbxH5.TabIndex = 39;
             this.pbxH5.TabStop = false;
             this.pbxH5.Click += new System.EventHandler(this.pbxH5_Click);
             // 
             // pbxG5
             // 
+            this.pbxG5.BackColor = System.Drawing.Color.White;
+            this.pbxG5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxG5.Location = new System.Drawing.Point(402, 251);
             this.pbxG5.Name = "pbxG5";
-            this.pbxG5.Size = new System.Drawing.Size(61, 50);
+            this.pbxG5.Size = new System.Drawing.Size(63, 54);
             this.pbxG5.TabIndex = 38;
             this.pbxG5.TabStop = false;
             this.pbxG5.Click += new System.EventHandler(this.pbxG5_Click);
             // 
             // pbxF5
             // 
+            this.pbxF5.BackColor = System.Drawing.Color.Black;
+            this.pbxF5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxF5.Location = new System.Drawing.Point(336, 251);
             this.pbxF5.Name = "pbxF5";
-            this.pbxF5.Size = new System.Drawing.Size(60, 50);
+            this.pbxF5.Size = new System.Drawing.Size(60, 54);
             this.pbxF5.TabIndex = 37;
             this.pbxF5.TabStop = false;
             this.pbxF5.Click += new System.EventHandler(this.pbxF5_Click);
             // 
             // pbxE5
             // 
+            this.pbxE5.BackColor = System.Drawing.Color.White;
+            this.pbxE5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxE5.Location = new System.Drawing.Point(270, 251);
             this.pbxE5.Name = "pbxE5";
-            this.pbxE5.Size = new System.Drawing.Size(60, 50);
+            this.pbxE5.Size = new System.Drawing.Size(60, 54);
             this.pbxE5.TabIndex = 36;
             this.pbxE5.TabStop = false;
             this.pbxE5.Click += new System.EventHandler(this.pbxE5_Click);
             // 
             // pbxD5
             // 
+            this.pbxD5.BackColor = System.Drawing.Color.Black;
+            this.pbxD5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxD5.Location = new System.Drawing.Point(203, 251);
             this.pbxD5.Name = "pbxD5";
-            this.pbxD5.Size = new System.Drawing.Size(61, 50);
+            this.pbxD5.Size = new System.Drawing.Size(61, 54);
             this.pbxD5.TabIndex = 35;
             this.pbxD5.TabStop = false;
             this.pbxD5.Click += new System.EventHandler(this.pbxD5_Click);
             // 
             // pbxC5
             // 
+            this.pbxC5.BackColor = System.Drawing.Color.White;
+            this.pbxC5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxC5.Location = new System.Drawing.Point(136, 251);
             this.pbxC5.Name = "pbxC5";
-            this.pbxC5.Size = new System.Drawing.Size(61, 50);
+            this.pbxC5.Size = new System.Drawing.Size(61, 54);
             this.pbxC5.TabIndex = 34;
             this.pbxC5.TabStop = false;
             this.pbxC5.Click += new System.EventHandler(this.pbxC5_Click);
             // 
             // pbxB5
             // 
+            this.pbxB5.BackColor = System.Drawing.Color.Black;
+            this.pbxB5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxB5.Location = new System.Drawing.Point(69, 251);
             this.pbxB5.Name = "pbxB5";
-            this.pbxB5.Size = new System.Drawing.Size(56, 50);
+            this.pbxB5.Size = new System.Drawing.Size(61, 54);
             this.pbxB5.TabIndex = 33;
             this.pbxB5.TabStop = false;
             this.pbxB5.Click += new System.EventHandler(this.pbxB5_Click);
             // 
             // pbxA5
             // 
+            this.pbxA5.BackColor = System.Drawing.Color.White;
+            this.pbxA5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxA5.Location = new System.Drawing.Point(3, 251);
             this.pbxA5.Name = "pbxA5";
-            this.pbxA5.Size = new System.Drawing.Size(55, 50);
+            this.pbxA5.Size = new System.Drawing.Size(60, 54);
             this.pbxA5.TabIndex = 32;
             this.pbxA5.TabStop = false;
             this.pbxA5.Click += new System.EventHandler(this.pbxA5_Click);
             // 
             // pbxH4
             // 
+            this.pbxH4.BackColor = System.Drawing.Color.White;
+            this.pbxH4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxH4.Location = new System.Drawing.Point(471, 187);
             this.pbxH4.Name = "pbxH4";
-            this.pbxH4.Size = new System.Drawing.Size(59, 50);
+            this.pbxH4.Size = new System.Drawing.Size(59, 58);
             this.pbxH4.TabIndex = 31;
             this.pbxH4.TabStop = false;
             this.pbxH4.Click += new System.EventHandler(this.pbxH4_Click);
             // 
             // pbxG4
             // 
+            this.pbxG4.BackColor = System.Drawing.Color.Black;
+            this.pbxG4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxG4.Location = new System.Drawing.Point(402, 187);
             this.pbxG4.Name = "pbxG4";
-            this.pbxG4.Size = new System.Drawing.Size(61, 50);
+            this.pbxG4.Size = new System.Drawing.Size(63, 58);
             this.pbxG4.TabIndex = 30;
             this.pbxG4.TabStop = false;
             this.pbxG4.Click += new System.EventHandler(this.pbxG4_Click);
             // 
             // pbxF4
             // 
+            this.pbxF4.BackColor = System.Drawing.Color.White;
+            this.pbxF4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxF4.Location = new System.Drawing.Point(336, 187);
             this.pbxF4.Name = "pbxF4";
-            this.pbxF4.Size = new System.Drawing.Size(60, 50);
+            this.pbxF4.Size = new System.Drawing.Size(60, 58);
             this.pbxF4.TabIndex = 29;
             this.pbxF4.TabStop = false;
             this.pbxF4.Click += new System.EventHandler(this.pbxF4_Click);
             // 
             // pbxE4
             // 
+            this.pbxE4.BackColor = System.Drawing.Color.Black;
+            this.pbxE4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxE4.Location = new System.Drawing.Point(270, 187);
             this.pbxE4.Name = "pbxE4";
-            this.pbxE4.Size = new System.Drawing.Size(60, 50);
+            this.pbxE4.Size = new System.Drawing.Size(60, 58);
             this.pbxE4.TabIndex = 28;
             this.pbxE4.TabStop = false;
             this.pbxE4.Click += new System.EventHandler(this.pbxE4_Click);
             // 
             // pbxD4
             // 
+            this.pbxD4.BackColor = System.Drawing.Color.White;
+            this.pbxD4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxD4.Location = new System.Drawing.Point(203, 187);
             this.pbxD4.Name = "pbxD4";
-            this.pbxD4.Size = new System.Drawing.Size(61, 50);
+            this.pbxD4.Size = new System.Drawing.Size(61, 58);
             this.pbxD4.TabIndex = 27;
             this.pbxD4.TabStop = false;
             this.pbxD4.Click += new System.EventHandler(this.pbxD4_Click);
             // 
             // pbxC4
             // 
+            this.pbxC4.BackColor = System.Drawing.Color.Black;
+            this.pbxC4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxC4.Location = new System.Drawing.Point(136, 187);
             this.pbxC4.Name = "pbxC4";
-            this.pbxC4.Size = new System.Drawing.Size(61, 50);
+            this.pbxC4.Size = new System.Drawing.Size(61, 58);
             this.pbxC4.TabIndex = 26;
             this.pbxC4.TabStop = false;
             this.pbxC4.Click += new System.EventHandler(this.pbxC4_Click);
             // 
             // pbxB4
             // 
+            this.pbxB4.BackColor = System.Drawing.Color.White;
+            this.pbxB4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxB4.Location = new System.Drawing.Point(69, 187);
             this.pbxB4.Name = "pbxB4";
-            this.pbxB4.Size = new System.Drawing.Size(56, 50);
+            this.pbxB4.Size = new System.Drawing.Size(61, 58);
             this.pbxB4.TabIndex = 25;
             this.pbxB4.TabStop = false;
             this.pbxB4.Click += new System.EventHandler(this.pbxB4_Click);
             // 
             // pbxA4
             // 
+            this.pbxA4.BackColor = System.Drawing.Color.Black;
+            this.pbxA4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxA4.Location = new System.Drawing.Point(3, 187);
             this.pbxA4.Name = "pbxA4";
-            this.pbxA4.Size = new System.Drawing.Size(55, 50);
+            this.pbxA4.Size = new System.Drawing.Size(60, 58);
             this.pbxA4.TabIndex = 24;
             this.pbxA4.TabStop = false;
             this.pbxA4.Click += new System.EventHandler(this.pbxA4_Click);
             // 
             // pbxH3
             // 
+            this.pbxH3.BackColor = System.Drawing.Color.Black;
+            this.pbxH3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxH3.Location = new System.Drawing.Point(471, 125);
             this.pbxH3.Name = "pbxH3";
-            this.pbxH3.Size = new System.Drawing.Size(59, 50);
+            this.pbxH3.Size = new System.Drawing.Size(59, 56);
             this.pbxH3.TabIndex = 23;
             this.pbxH3.TabStop = false;
             this.pbxH3.Click += new System.EventHandler(this.pbxH3_Click);
             // 
             // pbxG3
             // 
+            this.pbxG3.BackColor = System.Drawing.Color.White;
+            this.pbxG3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxG3.Location = new System.Drawing.Point(402, 125);
             this.pbxG3.Name = "pbxG3";
-            this.pbxG3.Size = new System.Drawing.Size(61, 50);
+            this.pbxG3.Size = new System.Drawing.Size(63, 56);
             this.pbxG3.TabIndex = 22;
             this.pbxG3.TabStop = false;
             this.pbxG3.Click += new System.EventHandler(this.pbxG3_Click);
             // 
             // pbxF3
             // 
+            this.pbxF3.BackColor = System.Drawing.Color.Black;
+            this.pbxF3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxF3.Location = new System.Drawing.Point(336, 125);
             this.pbxF3.Name = "pbxF3";
-            this.pbxF3.Size = new System.Drawing.Size(60, 50);
+            this.pbxF3.Size = new System.Drawing.Size(60, 56);
             this.pbxF3.TabIndex = 21;
             this.pbxF3.TabStop = false;
             this.pbxF3.Click += new System.EventHandler(this.pbxF3_Click);
             // 
             // pbxE3
             // 
+            this.pbxE3.BackColor = System.Drawing.Color.White;
+            this.pbxE3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxE3.Location = new System.Drawing.Point(270, 125);
             this.pbxE3.Name = "pbxE3";
-            this.pbxE3.Size = new System.Drawing.Size(60, 50);
+            this.pbxE3.Size = new System.Drawing.Size(60, 56);
             this.pbxE3.TabIndex = 20;
             this.pbxE3.TabStop = false;
             this.pbxE3.Click += new System.EventHandler(this.pbxE3_Click);
             // 
             // pbxD3
             // 
+            this.pbxD3.BackColor = System.Drawing.Color.Black;
+            this.pbxD3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxD3.Location = new System.Drawing.Point(203, 125);
             this.pbxD3.Name = "pbxD3";
-            this.pbxD3.Size = new System.Drawing.Size(61, 50);
+            this.pbxD3.Size = new System.Drawing.Size(61, 56);
             this.pbxD3.TabIndex = 19;
             this.pbxD3.TabStop = false;
             this.pbxD3.Click += new System.EventHandler(this.pbxD3_Click);
             // 
             // pbxC3
             // 
+            this.pbxC3.BackColor = System.Drawing.Color.White;
+            this.pbxC3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxC3.Location = new System.Drawing.Point(136, 125);
             this.pbxC3.Name = "pbxC3";
-            this.pbxC3.Size = new System.Drawing.Size(61, 50);
+            this.pbxC3.Size = new System.Drawing.Size(61, 56);
             this.pbxC3.TabIndex = 18;
             this.pbxC3.TabStop = false;
             this.pbxC3.Click += new System.EventHandler(this.pbxC3_Click);
             // 
             // pbxB3
             // 
+            this.pbxB3.BackColor = System.Drawing.Color.Black;
+            this.pbxB3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxB3.Location = new System.Drawing.Point(69, 125);
             this.pbxB3.Name = "pbxB3";
-            this.pbxB3.Size = new System.Drawing.Size(56, 50);
+            this.pbxB3.Size = new System.Drawing.Size(61, 56);
             this.pbxB3.TabIndex = 17;
             this.pbxB3.TabStop = false;
             this.pbxB3.Click += new System.EventHandler(this.pbxB3_Click);
             // 
             // pbxA3
             // 
+            this.pbxA3.BackColor = System.Drawing.Color.White;
+            this.pbxA3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxA3.Location = new System.Drawing.Point(3, 125);
             this.pbxA3.Name = "pbxA3";
-            this.pbxA3.Size = new System.Drawing.Size(55, 50);
+            this.pbxA3.Size = new System.Drawing.Size(60, 56);
             this.pbxA3.TabIndex = 16;
             this.pbxA3.TabStop = false;
             this.pbxA3.Click += new System.EventHandler(this.pbxA3_Click);
             // 
             // pbxH2
             // 
+            this.pbxH2.BackColor = System.Drawing.Color.White;
+            this.pbxH2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxH2.Location = new System.Drawing.Point(471, 64);
             this.pbxH2.Name = "pbxH2";
-            this.pbxH2.Size = new System.Drawing.Size(59, 50);
+            this.pbxH2.Size = new System.Drawing.Size(59, 55);
             this.pbxH2.TabIndex = 15;
             this.pbxH2.TabStop = false;
             this.pbxH2.Click += new System.EventHandler(this.pbxH2_Click);
             // 
             // pbxA1
             // 
+            this.pbxA1.BackColor = System.Drawing.Color.White;
+            this.pbxA1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxA1.Location = new System.Drawing.Point(3, 3);
             this.pbxA1.Name = "pbxA1";
-            this.pbxA1.Size = new System.Drawing.Size(55, 50);
+            this.pbxA1.Size = new System.Drawing.Size(60, 55);
             this.pbxA1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxA1.TabIndex = 0;
             this.pbxA1.TabStop = false;
@@ -717,10 +815,11 @@
             // 
             // pbxB1
             // 
-            this.pbxB1.Image = global::Checkers_Game.Properties.Resources.board_white_token;
+            this.pbxB1.BackColor = System.Drawing.Color.Black;
+            this.pbxB1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxB1.Location = new System.Drawing.Point(69, 3);
             this.pbxB1.Name = "pbxB1";
-            this.pbxB1.Size = new System.Drawing.Size(56, 50);
+            this.pbxB1.Size = new System.Drawing.Size(61, 55);
             this.pbxB1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxB1.TabIndex = 1;
             this.pbxB1.TabStop = false;
@@ -728,138 +827,156 @@
             // 
             // pbxC1
             // 
+            this.pbxC1.BackColor = System.Drawing.Color.White;
+            this.pbxC1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxC1.Location = new System.Drawing.Point(136, 3);
             this.pbxC1.Name = "pbxC1";
-            this.pbxC1.Size = new System.Drawing.Size(61, 50);
+            this.pbxC1.Size = new System.Drawing.Size(61, 55);
             this.pbxC1.TabIndex = 2;
             this.pbxC1.TabStop = false;
             this.pbxC1.Click += new System.EventHandler(this.pbxC1_Click);
             // 
             // pbxD1
             // 
+            this.pbxD1.BackColor = System.Drawing.Color.Black;
+            this.pbxD1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxD1.Location = new System.Drawing.Point(203, 3);
             this.pbxD1.Name = "pbxD1";
-            this.pbxD1.Size = new System.Drawing.Size(61, 50);
+            this.pbxD1.Size = new System.Drawing.Size(61, 55);
             this.pbxD1.TabIndex = 3;
             this.pbxD1.TabStop = false;
             this.pbxD1.Click += new System.EventHandler(this.pbxD1_Click);
             // 
             // pbxE1
             // 
+            this.pbxE1.BackColor = System.Drawing.Color.White;
+            this.pbxE1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxE1.Location = new System.Drawing.Point(270, 3);
             this.pbxE1.Name = "pbxE1";
-            this.pbxE1.Size = new System.Drawing.Size(60, 50);
+            this.pbxE1.Size = new System.Drawing.Size(60, 55);
             this.pbxE1.TabIndex = 4;
             this.pbxE1.TabStop = false;
             this.pbxE1.Click += new System.EventHandler(this.pbxE1_Click);
             // 
             // pbxF1
             // 
+            this.pbxF1.BackColor = System.Drawing.Color.Black;
+            this.pbxF1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxF1.Location = new System.Drawing.Point(336, 3);
             this.pbxF1.Name = "pbxF1";
-            this.pbxF1.Size = new System.Drawing.Size(60, 50);
+            this.pbxF1.Size = new System.Drawing.Size(60, 55);
             this.pbxF1.TabIndex = 5;
             this.pbxF1.TabStop = false;
             this.pbxF1.Click += new System.EventHandler(this.pbxF1_Click);
             // 
             // pbxG1
             // 
+            this.pbxG1.BackColor = System.Drawing.Color.White;
+            this.pbxG1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxG1.Location = new System.Drawing.Point(402, 3);
             this.pbxG1.Name = "pbxG1";
-            this.pbxG1.Size = new System.Drawing.Size(61, 50);
+            this.pbxG1.Size = new System.Drawing.Size(63, 55);
             this.pbxG1.TabIndex = 6;
             this.pbxG1.TabStop = false;
             this.pbxG1.Click += new System.EventHandler(this.pbxG1_Click);
             // 
             // pbxH1
             // 
+            this.pbxH1.BackColor = System.Drawing.Color.Black;
+            this.pbxH1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxH1.Location = new System.Drawing.Point(471, 3);
             this.pbxH1.Name = "pbxH1";
-            this.pbxH1.Size = new System.Drawing.Size(59, 50);
+            this.pbxH1.Size = new System.Drawing.Size(59, 55);
             this.pbxH1.TabIndex = 7;
             this.pbxH1.TabStop = false;
             this.pbxH1.Click += new System.EventHandler(this.pbxH1_Click);
             // 
             // pbxA2
             // 
+            this.pbxA2.BackColor = System.Drawing.Color.Black;
+            this.pbxA2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxA2.Location = new System.Drawing.Point(3, 64);
             this.pbxA2.Name = "pbxA2";
-            this.pbxA2.Size = new System.Drawing.Size(55, 50);
+            this.pbxA2.Size = new System.Drawing.Size(60, 55);
             this.pbxA2.TabIndex = 8;
             this.pbxA2.TabStop = false;
             this.pbxA2.Click += new System.EventHandler(this.pbxA2_Click);
             // 
             // pbxB2
             // 
+            this.pbxB2.BackColor = System.Drawing.Color.White;
+            this.pbxB2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxB2.Location = new System.Drawing.Point(69, 64);
             this.pbxB2.Name = "pbxB2";
-            this.pbxB2.Size = new System.Drawing.Size(56, 50);
+            this.pbxB2.Size = new System.Drawing.Size(61, 55);
             this.pbxB2.TabIndex = 9;
             this.pbxB2.TabStop = false;
             this.pbxB2.Click += new System.EventHandler(this.pbxB2_Click);
             // 
             // pbxC2
             // 
+            this.pbxC2.BackColor = System.Drawing.Color.Black;
+            this.pbxC2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxC2.Location = new System.Drawing.Point(136, 64);
             this.pbxC2.Name = "pbxC2";
-            this.pbxC2.Size = new System.Drawing.Size(61, 50);
+            this.pbxC2.Size = new System.Drawing.Size(61, 55);
             this.pbxC2.TabIndex = 10;
             this.pbxC2.TabStop = false;
             this.pbxC2.Click += new System.EventHandler(this.pbxC2_Click);
             // 
             // pbxD2
             // 
+            this.pbxD2.BackColor = System.Drawing.Color.White;
+            this.pbxD2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxD2.Location = new System.Drawing.Point(203, 64);
             this.pbxD2.Name = "pbxD2";
-            this.pbxD2.Size = new System.Drawing.Size(61, 50);
+            this.pbxD2.Size = new System.Drawing.Size(61, 55);
             this.pbxD2.TabIndex = 11;
             this.pbxD2.TabStop = false;
             this.pbxD2.Click += new System.EventHandler(this.pbxD2_Click);
             // 
             // pbxE2
             // 
+            this.pbxE2.BackColor = System.Drawing.Color.Black;
+            this.pbxE2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxE2.Location = new System.Drawing.Point(270, 64);
             this.pbxE2.Name = "pbxE2";
-            this.pbxE2.Size = new System.Drawing.Size(60, 50);
+            this.pbxE2.Size = new System.Drawing.Size(60, 55);
             this.pbxE2.TabIndex = 12;
             this.pbxE2.TabStop = false;
             this.pbxE2.Click += new System.EventHandler(this.pbxE2_Click);
             // 
             // pbxF2
             // 
+            this.pbxF2.BackColor = System.Drawing.Color.White;
+            this.pbxF2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxF2.Location = new System.Drawing.Point(336, 64);
             this.pbxF2.Name = "pbxF2";
-            this.pbxF2.Size = new System.Drawing.Size(60, 50);
+            this.pbxF2.Size = new System.Drawing.Size(60, 55);
             this.pbxF2.TabIndex = 13;
             this.pbxF2.TabStop = false;
             this.pbxF2.Click += new System.EventHandler(this.pbxF2_Click);
             // 
             // pbxG2
             // 
+            this.pbxG2.BackColor = System.Drawing.Color.Black;
+            this.pbxG2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxG2.Location = new System.Drawing.Point(402, 64);
             this.pbxG2.Name = "pbxG2";
-            this.pbxG2.Size = new System.Drawing.Size(61, 50);
+            this.pbxG2.Size = new System.Drawing.Size(63, 55);
             this.pbxG2.TabIndex = 14;
             this.pbxG2.TabStop = false;
             this.pbxG2.Click += new System.EventHandler(this.pbxG2_Click);
             // 
             // pbxGameBoardButtons
             // 
+            this.pbxGameBoardButtons.BackColor = System.Drawing.Color.White;
+            this.pbxGameBoardButtons.BackgroundImage = global::Checkers_Game.Properties.Resources.board_black_token;
             this.pbxGameBoardButtons.Location = new System.Drawing.Point(551, 4);
             this.pbxGameBoardButtons.Name = "pbxGameBoardButtons";
             this.pbxGameBoardButtons.Size = new System.Drawing.Size(303, 510);
             this.pbxGameBoardButtons.TabIndex = 2;
             this.pbxGameBoardButtons.TabStop = false;
-            // 
-            // pbxGameBoard
-            // 
-            this.pbxGameBoard.Image = ((System.Drawing.Image)(resources.GetObject("pbxGameBoard.Image")));
-            this.pbxGameBoard.Location = new System.Drawing.Point(12, 12);
-            this.pbxGameBoard.Name = "pbxGameBoard";
-            this.pbxGameBoard.Size = new System.Drawing.Size(533, 492);
-            this.pbxGameBoard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxGameBoard.TabIndex = 0;
-            this.pbxGameBoard.TabStop = false;
             // 
             // pbxTurn
             // 
@@ -962,7 +1079,6 @@
             this.Controls.Add(this.pbxTurn);
             this.Controls.Add(this.pbxGameBoardButtons);
             this.Controls.Add(this.tlpGameBoard);
-            this.Controls.Add(this.pbxGameBoard);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmGameBoard";
@@ -1035,7 +1151,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxF2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxG2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoardButtons)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoard)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTurn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1043,8 +1158,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pbxGameBoard;
         private System.Windows.Forms.TableLayoutPanel tlpGameBoard;
         private System.Windows.Forms.PictureBox pbxA1;
         private System.Windows.Forms.PictureBox pbxB1;
