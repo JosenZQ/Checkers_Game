@@ -19,6 +19,7 @@ namespace Checkers_Game
         int mTokensCount = 24;
         string mTurn = "FirstPlayer";
         List<cTokenBox> mTokenBoxesList = new List<cTokenBox>();
+        int mFirstPlayerTokens = 0, mSecondPlayerTokens = 0;
 
         public frmGameBoard()
         {
@@ -66,6 +67,8 @@ namespace Checkers_Game
                         mTokenBoxesList.Add(mTokenBox);
                         _Box.BackgroundImage = Resources.board_black_token;
                         mTurn = "SecondPlayer";
+                        mFirstPlayerTokens += 1;
+                        lblFirstPlayerTokens.Text = mFirstPlayerTokens.ToString();
                         mTokensCount--;
                     }
                     else
@@ -76,6 +79,8 @@ namespace Checkers_Game
                         mTokenBoxesList.Add(mTokenBox);
                         _Box.BackgroundImage = Resources.board_white_token;
                         mTurn = "FirstPlayer";
+                        mSecondPlayerTokens += 1;
+                        lblSecondPlayerTokens.Text = mSecondPlayerTokens.ToString();
                         mTokensCount--;
                     }
                 }
@@ -84,9 +89,11 @@ namespace Checkers_Game
                     MessageBox.Show("Campo ya ocupado");
                 }
             }
-        }    
-
-
+            else
+            {
+                MessageBox.Show("¡Puede empezar a mover fichas!");
+            }
+        }
 
         //--------------------------- CONTROLES ----------------------------
         private void btnHelp_Click(object sender, EventArgs e)
