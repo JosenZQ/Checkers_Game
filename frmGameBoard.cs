@@ -18,8 +18,9 @@ namespace Checkers_Game
         //VARIABLES GLOBALES
         int mTokensCount = 24;
         string mTurn = "FirstPlayer";
-        List<cTokenBox> mTokenBoxesList = new List<cTokenBox>();
         int mFirstPlayerTokens = 0, mSecondPlayerTokens = 0;
+        bool mAdvice = true;
+        cTokenBox mControl = new cTokenBox();
 
         public frmGameBoard()
         {
@@ -51,20 +52,17 @@ namespace Checkers_Game
             }
         }
 
-        //--------------------------- FUNCIONES ----------------------------      
+        //--------------------------- FUNCIONES ----------------------------        
 
-        private void fn_DealTokens(PictureBox _Box)
+        private void fn_DealTokens(PictureBox _Box, string _PictureBoxName)
         {
             if (mTokensCount > 0)
             {
                 if(_Box.BackgroundImage == null)
                 {
                     if (mTurn == "FirstPlayer")
-                    {
-                        cTokenBox mTokenBox = new cTokenBox();
-                        mTokenBox.setBox(_Box);
-                        mTokenBox.setTokenColor("Black");
-                        mTokenBoxesList.Add(mTokenBox);
+                    {                        
+                        mControl.Add_To_Token_List(_PictureBoxName, false, "Black");
                         _Box.BackgroundImage = Resources.board_black_token;
                         mTurn = "SecondPlayer";
                         pbxTurn.Image = Resources.label_button_second_player;
@@ -74,10 +72,7 @@ namespace Checkers_Game
                     }
                     else
                     {
-                        cTokenBox mTokenBox = new cTokenBox();
-                        mTokenBox.setBox(_Box);
-                        mTokenBox.setTokenColor("White");
-                        mTokenBoxesList.Add(mTokenBox);
+                        mControl.Add_To_Token_List(_PictureBoxName, false, "White");
                         _Box.BackgroundImage = Resources.board_white_token;
                         mTurn = "FirstPlayer";
                         pbxTurn.Image = Resources.label_button_first_player;
@@ -92,12 +87,31 @@ namespace Checkers_Game
                 }
             }
             else
-            {
-                MessageBox.Show("¡Puede empezar a mover fichas!");
+            {                
+                if(mAdvice != false)
+                {
+                    MessageBox.Show("¡Puede empezar a mover fichas!");
+                    mAdvice = false;
+                }
+                fn_MoveTokens(_Box, _PictureBoxName);
             }
         }
 
-        //--------------------------- CONTROLES ----------------------------
+        private void fn_MoveTokens(PictureBox _Box, string _BoxName)
+        {
+            cTokenBox mToken = mControl.Return_List_Item_By_Name(_BoxName);
+
+            if (mToken != null)
+            {
+                MessageBox.Show($"PictureBox seleccionado: {mToken._TokenName}");
+            }
+            else
+            {
+                MessageBox.Show("Error al traer objeto de la lista");
+            }
+        }
+
+        //----------------------------- CONTROLES -----------------------------
         private void btnHelp_Click(object sender, EventArgs e)
         {
             frmHelp mHelp = new frmHelp();
@@ -107,329 +121,329 @@ namespace Checkers_Game
         //--------------------------- PICTUREBOXES A ----------------------------
         private void pbxA1_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxA1);
+            fn_DealTokens(pbxA1, "A1");
         }
 
         private void pbxA2_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxA2);
+            fn_DealTokens(pbxA2, "A2");
         }
 
         private void pbxA3_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxA3);
+            fn_DealTokens(pbxA3, "A3");
         }
 
         private void pbxA4_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxA4);
+            fn_DealTokens(pbxA4, "A4");
         }
 
         private void pbxA5_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxA5);
+            fn_DealTokens(pbxA5, "A5");
         }
 
         private void pbxA6_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxA6);
+            fn_DealTokens(pbxA6, "A6");
         }
 
         private void pbxA7_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxA7);
+            fn_DealTokens(pbxA7, "A7");
         }
 
         private void pbxA8_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxA8);
+            fn_DealTokens(pbxA8, "A8");
         }
 
         //--------------------------- PICTUREBOXES B ----------------------------
         private void pbxB1_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxB1);
+            fn_DealTokens(pbxB1, "B1");
         }
 
         private void pbxB2_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxB2);
+            fn_DealTokens(pbxB2, "B2");
         }
 
         private void pbxB3_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxB3);
+            fn_DealTokens(pbxB3, "B3");
         }
 
         private void pbxB4_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxB4);
+            fn_DealTokens(pbxB4, "B4");
         }
 
         private void pbxB5_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxB5);
+            fn_DealTokens(pbxB5, "B5");
         }
 
         private void pbxB6_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxB6);
+            fn_DealTokens(pbxB6, "B6");
         }
 
         private void pbxB7_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxB7);
+            fn_DealTokens(pbxB7, "B7");
         }
 
         private void pbxB8_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxB8);
+            fn_DealTokens(pbxB8, "B8");
         }
 
         //--------------------------- PICTUREBOXES C ----------------------------
         private void pbxC1_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxC1);
+            fn_DealTokens(pbxC1, "C1");
         }
 
         private void pbxC2_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxC2);
+            fn_DealTokens(pbxC2, "C2");
         }
 
         private void pbxC3_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxC3);
+            fn_DealTokens(pbxC3, "C3");
         }
 
         private void pbxC4_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxC4);
+            fn_DealTokens(pbxC4, "C4");
         }
 
         private void pbxC5_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxC5);
+            fn_DealTokens(pbxC5, "C5");
         }
 
         private void pbxC6_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxC6);
+            fn_DealTokens(pbxC6, "C6");
         }
 
         private void pbxC7_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxC7);
+            fn_DealTokens(pbxC7, "C7");
         }
 
         private void pbxC8_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxC8);
+            fn_DealTokens(pbxC8, "C8");
         }
 
         //--------------------------- PICTUREBOXES D ----------------------------
         private void pbxD1_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxD1);
+            fn_DealTokens(pbxD1, "D1");
         }
 
         private void pbxD2_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxD2);
+            fn_DealTokens(pbxD2, "D2");
         }
 
         private void pbxD3_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxD3);
+            fn_DealTokens(pbxD3, "D3");
         }
 
         private void pbxD4_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxD4);
+            fn_DealTokens(pbxD4, "D4");
         }
 
         private void pbxD5_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxD5);
+            fn_DealTokens(pbxD5, "D5");
         }
 
         private void pbxD6_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxD6);
+            fn_DealTokens(pbxD6, "D6");
         }
 
         private void pbxD7_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxD7);
+            fn_DealTokens(pbxD7, "D7");
         }
 
         private void pbxD8_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxD8);
+            fn_DealTokens(pbxD8, "D8");
         }
 
         //--------------------------- PICTUREBOXES E ----------------------------
         private void pbxE1_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxE1);
+            fn_DealTokens(pbxE1, "E1");
         }
 
         private void pbxE2_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxE2);
+            fn_DealTokens(pbxE2, "E2");
         }
 
         private void pbxE3_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxE3);
+            fn_DealTokens(pbxE3, "E3");
         }
 
         private void pbxE4_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxE4);
+            fn_DealTokens(pbxE4, "E4");
         }
 
         private void pbxE5_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxE5);
+            fn_DealTokens(pbxE5, "E5");
         }
 
         private void pbxE6_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxE6);
+            fn_DealTokens(pbxE6, "E6");
         }
 
         private void pbxE7_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxE7);
+            fn_DealTokens(pbxE7, "E7");
         }
 
         private void pbxE8_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxE8);
+            fn_DealTokens(pbxE8, "E8");
         }
 
         //--------------------------- PICTUREBOXES F ----------------------------
         private void pbxF1_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxF1);
+            fn_DealTokens(pbxF1, "F1");
         }
 
         private void pbxF2_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxF2);
+            fn_DealTokens(pbxF2, "F2");
         }
 
         private void pbxF3_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxF3);
+            fn_DealTokens(pbxF3, "F3");
         }
 
         private void pbxF4_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxF4);
+            fn_DealTokens(pbxF4, "F4");
         }
 
         private void pbxF5_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxF5);
+            fn_DealTokens(pbxF5, "F5");
         }
 
         private void pbxF6_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxF6);
+            fn_DealTokens(pbxF6, "F6");
         }
 
         private void pbxF7_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxF7);
+            fn_DealTokens(pbxF7, "F7");
         }
 
         private void pbxF8_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxF8);
+            fn_DealTokens(pbxF8, "F8");
         }
 
         //--------------------------- PICTUREBOXES G ----------------------------
         private void pbxG1_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxG1);
+            fn_DealTokens(pbxG1, "G1");
         }
 
         private void pbxG2_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxG2);
+            fn_DealTokens(pbxG2, "G2");
         }
 
         private void pbxG3_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxG3);
+            fn_DealTokens(pbxG3, "G3");
         }
 
         private void pbxG4_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxG4);
+            fn_DealTokens(pbxG4, "G4");
         }
 
         private void pbxG5_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxG5);
+            fn_DealTokens(pbxG5, "G5");
         }
 
         private void pbxG6_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxG6);
+            fn_DealTokens(pbxG6, "G6");
         }
 
         private void pbxG7_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxG7);
+            fn_DealTokens(pbxG7, "G7");
         }
 
         private void pbxG8_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxG8);
+            fn_DealTokens(pbxG8, "G8");
         }
 
         //--------------------------- PICTUREBOXES H ----------------------------
         private void pbxH1_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxH1);
+            fn_DealTokens(pbxH1, "H1");
         }
 
         private void pbxH2_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxH2);
+            fn_DealTokens(pbxH2, "H2");
         }
 
         private void pbxH3_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxH3);
+            fn_DealTokens(pbxH3, "H3");
         }
 
         private void pbxH4_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxH4);
+            fn_DealTokens(pbxH4, "H4");
         }
 
         private void pbxH5_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxH5);
+            fn_DealTokens(pbxH5, "H5");
         }
 
         private void pbxH6_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxH6);
+            fn_DealTokens(pbxH6, "H6");
         }
 
         private void pbxH7_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxH7);
+            fn_DealTokens(pbxH7, "H7");
         }
 
         private void pbxH8_Click(object sender, EventArgs e)
         {
-            fn_DealTokens(pbxH8);
+            fn_DealTokens(pbxH8, "H8");
         }        
         //--------------------------- FIN DE PICTUREBOXES -----------------------
     }

@@ -9,38 +9,77 @@ namespace Checkers_Game.Config
 {
     public class cTokenBox
     {
-        private PictureBox TokenBox;
+        private string TokenName;
         private bool Selection;
-        private string TokenColor;
+        private string Alignment;
+        private string Color;
 
-        public void setBox(PictureBox _Box)
+        public List<cTokenBox> mTokenList = new List<cTokenBox>();
+
+        public cTokenBox()
         {
-            this.TokenBox = _Box;
+            this.TokenName = string.Empty;
+            this.Selection = false;
+            this.Alignment = string.Empty;
+            this.Color = string.Empty;
         }
 
-        public PictureBox getBox()
+        public string _TokenName
         {
-            return TokenBox;
+           get { return TokenName; }
+           set { TokenName = value; }
         }
 
-        public void setSelection(bool _Selection)
+        public bool _Selection
         {
-            this.Selection = _Selection;
+            get { return Selection; }
+            set { Selection = value; }
         }
 
-        public bool getSelection() 
+        public string _Alignment
         {
-            return this.Selection;
+            get { return Alignment; }
+            set { Alignment = value; }
         }
 
-        public void setTokenColor(string _TokenColor)
+        public string _Color
         {
-            this.TokenColor = _TokenColor;
+            get { return Color; }
+            set { Color = value; }
         }
 
-        public string getTokenColor()
+        public void Add_To_Token_List(string _Name, bool _Selection, string _Color)
         {
-            return this.TokenColor;
+            cTokenBox mToken = new cTokenBox();
+            mToken.TokenName = _Name;
+            mToken.Selection = _Selection;
+            mToken.Color = _Color;
+            mTokenList.Add(mToken);
+        }
+
+        public cTokenBox Return_List_Item_By_Name(string _Name)
+        {
+            int i = 0;
+
+            try
+            {
+                for(i = 0; i < mTokenList.Count();)
+                {
+                    if (mTokenList[i].TokenName == _Name)
+                    {
+                        return mTokenList[i];
+                    }
+                    else
+                    {
+                        i++;
+                    }
+                }
+                return null;
+            }
+            catch(Exception)
+            {
+                return null;
+            }
         }
 
     }
