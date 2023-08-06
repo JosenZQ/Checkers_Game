@@ -57,6 +57,52 @@ namespace Checkers_Game.Config
             mTokenList.Add(mToken);
         }
 
+        public void Set_Selection_On_List_Item(string _Name)
+        {
+            int i = 0;
+
+            for (i = 0; i < mTokenList.Count();)
+            {
+                if (mTokenList[i].TokenName == _Name)
+                {
+                    mTokenList[i].Selection = true;
+                    i = 65; //SON 65 POR QUE EN TOTAL SON 64 FICHAS, ES PARA QUE ROMPA EL CICLO
+                }
+                else
+                {
+                    i++;
+                }
+            }
+        }
+
+        public void Clear_Selections()
+        {
+            for (int i = 0; i < mTokenList.Count(); i++)
+            {
+                mTokenList[i].Selection = false;
+            }
+        }
+
+        public cTokenBox Return_List_Item_By_Selection()
+        {
+            int i;
+
+            for (i = 0; i < mTokenList.Count();)
+            {
+                if (mTokenList[i].Selection == true)
+                {
+                    return mTokenList[i];
+                    i = 65;
+                    Clear_Selections();
+                }
+                else
+                {
+                    i++;
+                }
+            }
+            return null;
+        }              
+
         public cTokenBox Return_List_Item_By_Name(string _Name)
         {
             int i = 0;
@@ -68,6 +114,7 @@ namespace Checkers_Game.Config
                     if (mTokenList[i].TokenName == _Name)
                     {
                         return mTokenList[i];
+                        i = 65;
                     }
                     else
                     {

@@ -99,17 +99,33 @@ namespace Checkers_Game
 
         private void fn_MoveTokens(PictureBox _Box, string _BoxName)
         {
-            cTokenBox mToken = mControl.Return_List_Item_By_Name(_BoxName);
+            try
+            {
+                mControl.Set_Selection_On_List_Item(_BoxName);
+                cTokenBox mToken = mControl.Return_List_Item_By_Selection();
 
-            if (mToken != null)
-            {
-                MessageBox.Show($"PictureBox seleccionado: {mToken._TokenName}");
+                if(mToken._Selection != false)
+                {
+                    MessageBox.Show($"PictureBox seleccionado: {mToken._TokenName}");
+                    _Box.BackColor = Color.FromArgb(224, 224, 224);
+                }
+                else
+                {
+
+                }
             }
-            else
+            catch(Exception)
             {
-                MessageBox.Show("Error al traer objeto de la lista");
+                MessageBox.Show("Error al seleccionar");
             }
         }
+
+        private void fn_SelectItem()
+        {
+
+        }
+
+
 
         //----------------------------- CONTROLES -----------------------------
         private void btnHelp_Click(object sender, EventArgs e)
